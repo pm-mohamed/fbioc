@@ -998,13 +998,32 @@ select.input-lineonly {
 .container-fluid > div > div {
   align-self: stretch;
 }
-
-/* Progress Menu */
+/* Progress Menu Container */
 .container-fluid > div > div:first-child {
   margin-top: 195px;
 }
-
-/* Title and choices buttons */
+/* Title and choices buttons container */
 .container-fluid > div > div:nth-child(2) {
   margin-top: 91px;
+}
+/* Title and Question icon */
+.bigtitlecontainer div {
+  width: auto;
+  height: auto;
+  flex: unset;
+}
+/* Title Container */
+.bigtitlecontainer div:first-child {
+  padding-left: 0;
+}
+/* Question icon container */
+.bigtitlecontainer div:nth-child(2) {
+  padding-left: 0;
+}
+/* Choices buttons containers */
+.category-row div {
+  flex-grow: unset;
+  flex-basis: 265px;
+  padding-right: 11px;
+  padding-left: 0;
 }
