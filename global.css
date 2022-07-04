@@ -832,7 +832,7 @@ select.input-lineonly {
   color: #46874B !important;
 }
 
-.bg-light {
+#app .bg-light {
   background-color: #FFFFFF !important;
 }
 
@@ -982,3 +982,29 @@ select.input-lineonly {
   padding-right: 37px;
 }
 /*# sourceMappingURL=client.css.map */
+
+/* Header */
+#app .header {
+  border-bottom: none;
+  box-shadow: none;
+}
+/* Progressbar */
+#progressbar{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* General Layout - Container of the progress menu and questions and answers */
+.container-fluid > div > div {
+  align-self: stretch;
+}
+
+/* Progress Menu */
+.container-fluid > div > div:first-child {
+  margin-top: 195px;
+}
+
+/* Title and choices buttons */
+.container-fluid > div > div:nth-child(2) {
+  margin-top: 91px;
+}
