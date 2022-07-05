@@ -1000,7 +1000,7 @@ select.input-lineonly {
 }
 /* Progress Menu Container */
 .container-fluid > div > div:first-child {
-  margin-top: 24vh;
+  margin-top: 210px;
 }
 /* Title and choices buttons container */
 .container-fluid > div > div:nth-child(2) {
@@ -1026,6 +1026,10 @@ select.input-lineonly {
   padding-left: 0;
 }
 /* Choices buttons containers */
+#app .category-row {
+  margin-bottom: 20px;
+}
+
 .category-row div {
   flex-grow: unset;
   flex-basis: 265px;
@@ -1035,11 +1039,14 @@ select.input-lineonly {
 /* Fixed Action buttons at bottom (Ask John to add class name) */
 #app footer {
   background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%);
-  width: 815px;
+  width: 818px;
+  bottom: 0;
+  height: 264px
 }
 
 footer div {
   justify-content: space-between;
+  margin-top: 55px;
 }
 
 footer div div:first-child{
