@@ -1006,6 +1006,11 @@ select.input-lineonly {
 .container-fluid > div > div:nth-child(2) {
   margin-top: 91px;
 }
+
+.container-fluid > div > div:nth-child(2) > div > div {
+  margin-bottom: 115px;
+}
+
 .bigtitlecontainer, .category-row{
   padding-left: 15px;
 }
@@ -1041,7 +1046,7 @@ select.input-lineonly {
   background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%);
   width: 818px;
   bottom: 0;
-  height: 264px
+  height: 234px
 }
 
 footer div {
