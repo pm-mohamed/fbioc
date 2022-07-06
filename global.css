@@ -1014,6 +1014,32 @@ select.input-lineonly {
 .bigtitlecontainer, .category-row{
   padding-left: 15px;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>New CSS Rules<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Buttons  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Secondary Button */
+.button--secondary {
+  min-width: 104px !important;
+  background-color: #FFFFFF !important;
+  min-height: 56px !important;
+  border: 2px solid #1C6F62 !important;
+  border-radius: 10px !important;
+}
+
+.button--secondary:hover, .button--secondary:active {
+  background-image: linear-gradient(289deg, #DEF0ED, #BEDCD7) !important;
+}
+
+.button--secondary span {
+  font-family: "Nunito Sans", sans-serif !important;
+  color: #272727 !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+.button--secondary.disabled, .button--secondary:disabled {
+  background: #E4E4E4 !important;
+  border: 2px solid #BBBBBB !important;
+}
 
 /* Title and Question icon */
 .bigtitlecontainer div {
@@ -1042,6 +1068,15 @@ select.input-lineonly {
   padding-left: 0;
 }
 /* Fixed Action buttons at bottom (Ask John to add class name) */
+/* Footer */
+#app .container-fluid > div > div:nth-child(2) > div:nth-child(2){
+  height: 234px !important;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 #app footer {
   background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%);
   width: 818px;
@@ -1064,4 +1099,36 @@ footer div div:nth-child(2){
 
 footer div div:first-child a{
   padding-left: 0;
+}
+/* Back link */
+footer a svg{
+  fill: #1C6F62;
+}
+
+footer a:active span{
+  color: #1C6F62;
+}
+/* continue button */
+footer .btn-secondary{
+  min-width: 104px !important;
+  background-color: #FFFFFF !important;
+  min-height: 56px !important;
+  border: 2px solid #1C6F62 !important;
+  border-radius: 10px !important;
+}
+
+footer .btn-secondary:hover, .btn-secondary:active {
+  background-image: linear-gradient(289deg, #DEF0ED, #BEDCD7) !important;
+}
+
+footer .btn-secondary span {
+  font-family: "Nunito Sans", sans-serif !important;
+  color: #272727 !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+footer .btn-secondary.disabled, .btn-secondary:disabled {
+  background: #E4E4E4 !important;
+  border: 2px solid #BBBBBB !important;
 }
