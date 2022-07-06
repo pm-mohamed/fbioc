@@ -1023,6 +1023,7 @@ select.input-lineonly {
   min-height: 56px !important;
   border: 2px solid #1C6F62 !important;
   border-radius: 10px !important;
+  padding: 15px 40px !important;
 }
 
 .button--secondary:hover, .button--secondary:active {
@@ -1101,6 +1102,30 @@ footer div div:first-child a{
   padding-left: 0;
 }
 /* Back link */
+#leftbutton{
+  padding: 15px 12px;
+}
+
+#leftbutton:hover svg{
+  margin-left: -2px;
+}
+
+#leftbutton:hover span{
+  margin-left: 2px;
+}
+
+footer #leftbutton:hover, #leftbutton:active {
+  background-image: none !important;
+}
+
+a#leftbutton.disabled svg{
+  fill: #BBBBBB !important;
+}
+
+a#leftbutton.disabled span{
+  color: #BBBBBB !important;
+}
+
 footer a svg{
   fill: #1C6F62;
 }
@@ -1115,6 +1140,7 @@ footer .btn-secondary{
   min-height: 56px !important;
   border: 2px solid #1C6F62 !important;
   border-radius: 10px !important;
+  padding: 15px 40px;
 }
 
 footer .btn-secondary:hover, .btn-secondary:active {
