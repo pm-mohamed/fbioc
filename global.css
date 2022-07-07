@@ -1068,8 +1068,8 @@ select.input-lineonly {
   padding-right: 11px;
   padding-left: 0;
 }
-/* Fixed Action buttons at bottom (Ask John to add class name) */
-/* Footer */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 #app .container-fluid > div > div:nth-child(2) > div:nth-child(2){
   height: 234px !important;
   background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%);
@@ -1157,4 +1157,9 @@ footer .btn-secondary span {
 footer .btn-secondary.disabled, .btn-secondary:disabled {
   background: #E4E4E4 !important;
   border: 2px solid #BBBBBB !important;
+  color: #BBBBBB !important;
+}
+
+footer .btn-secondary.disabled, .btn-secondary:disabled span {
+  color: #BBBBBB !important;
 }
