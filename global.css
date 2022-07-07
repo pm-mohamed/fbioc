@@ -1041,7 +1041,18 @@ select.input-lineonly {
   background: #E4E4E4 !important;
   border: 2px solid #BBBBBB !important;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#app #progressbar {
+  background-color: #1C6F62;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Create new appointment button */
+#createappointmentbutton{
+  padding: 16px 45px;
+  border-radius: 10px;
+}
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Title and Question icon */
 .bigtitlecontainer div {
   width: auto;
@@ -1057,6 +1068,10 @@ select.input-lineonly {
 .bigtitlecontainer div:nth-child(2) {
   padding-left: 0;
 }
+
+.bigtitlecontainer div:nth-child(2) img {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(79%) saturate(420%) hue-rotate(121deg) brightness(94%) contrast(85%);
+}
 /* Choices buttons containers */
 #app .category-row {
   margin-bottom: 20px;
@@ -1068,7 +1083,12 @@ select.input-lineonly {
   padding-right: 11px;
   padding-left: 0;
 }
-
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* I'm Interested in diffrent location checkbox wrapper */
+#app .custom-control{
+  z-index: 0;
+  padding-bottom: 115px;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 #app .container-fluid > div > div:nth-child(2) > div:nth-child(2){
   height: 234px !important;
