@@ -1052,6 +1052,61 @@ select.input-lineonly {
   border-radius: 10px;
 }
 
+#app.mycontainer{
+  min-height: unset !important;
+}
+
+.apptable .topleft{
+  border-top-left-radius: 20px !important;
+}
+
+.apptable .topright{
+  border-top-right-radius: 20px !important;
+} 
+
+.apptable .bottomleft{
+  border-bottom-left-radius: 20px !important;
+}
+
+.apptable .bottomright{
+  border-bottom-right-radius: 20px !important;
+}
+/* CTA Button */
+td .apptbutton {
+  min-width: 104px !important;
+  background-color: #FFFFFF !important;
+  min-height: 56px !important;
+  border: 2px solid #1C6F62 !important;
+  border-radius: 8px !important;
+  padding: 9px 16px !important;
+}
+
+td .apptbutton:hover, .apptbutton:active {
+  background-image: linear-gradient(289deg, #DEF0ED, #BEDCD7) !important;
+}
+
+td .apptbutton span {
+  font-family: "Nunito Sans", sans-serif !important;
+  color: #272727 !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+td .apptbutton.disabled, .apptbutton:disabled {
+  background: #E4E4E4 !important;
+  border: 2px solid #BBBBBB !important;
+}
+
+/* Time/Date text */
+.firstcolumn{
+  padding-top: 11px;
+}
+
+/* Show details button */
+.showdetail-button{
+  margin-top: 17px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Title and Question icon */
 .bigtitlecontainer div {
