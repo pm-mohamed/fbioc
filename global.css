@@ -1159,6 +1159,20 @@ td .apptbutton.disabled, .apptbutton:disabled {
   padding-right: 11px;
   padding-left: 0;
 }
+
+/* Right Info Sidebar */
+#sidebar-right:after{
+  content:'';
+  display: inline-block;
+  top: 10%;
+  height: 100%;
+  width: 500vw;
+  transform: translate(-100%, -10%);
+  position: absolute;
+  z-index: 1034;
+  background: #BBBBBB 0% 0% no-repeat padding-box;
+  opacity: 0.33;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* I'm Interested in diffrent location checkbox wrapper */
 #app .custom-control{
