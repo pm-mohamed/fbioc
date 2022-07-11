@@ -999,12 +999,12 @@ select.input-lineonly {
   align-self: stretch;
 }
 /* Progress Menu Container */
-.container-fluid > div > div:first-child {
-  margin-top: 210px;
+.progress-menu__wrapper{
+  margin-top: 309px;
 }
 /* Title and choices buttons container */
-.container-fluid > div > div:nth-child(2) {
-  margin-top: 91px;
+.main-content__wrapper {
+  margin-top: 190px;
 }
 
 .container-fluid > div > div:nth-child(2) > div > div {
@@ -1042,6 +1042,18 @@ select.input-lineonly {
   border: 2px solid #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.navigation__wrapper{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#container {
+  position: fixed;
+  top: 105px;
+  z-index: 1;
+}
+
 #app #progressbar {
   background-color: #1C6F62;
 }
@@ -1108,6 +1120,15 @@ td .apptbutton.disabled, .apptbutton:disabled {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Progress menu */
+#app .progress-menu__wrapper{
+  position: fixed;
+}
+/* Right Column of title and choices */
+.main-content__wrapper{
+  margin-left: 301px;
+}
+
 /* Title and Question icon */
 .bigtitlecontainer div {
   width: auto;
