@@ -1078,6 +1078,7 @@ select.input-lineonly {
 
 .apptable .topright{
   border-top-right-radius: 20px !important;
+  height: 26px;
 } 
 
 .apptable .bottomleft{
@@ -1086,15 +1087,18 @@ select.input-lineonly {
 
 .apptable .bottomright{
   border-bottom-right-radius: 20px !important;
+  height: 26px;
 }
 /* CTA Button */
 td .apptbutton {
   min-width: 104px !important;
-  background-color: #FFFFFF !important;
+  background-color: #FFFFFF !important; 
   min-height: 56px !important;
   border: 2px solid #1C6F62 !important;
   border-radius: 8px !important;
   padding: 9px 16px !important;
+  margin-right: 23px!important;
+  margin-left: 5px!important;
 }
 
 td .apptbutton:hover, .apptbutton:active {
