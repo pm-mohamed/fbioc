@@ -1091,7 +1091,7 @@ select.input-lineonly {
 }
 /* CTA Button */
 td .apptbutton {
-  min-width: 104px !important;
+  min-width: 143px !important;
   background-color: #FFFFFF !important; 
   min-height: 56px !important;
   border: 2px solid #1C6F62 !important;
@@ -1099,6 +1099,7 @@ td .apptbutton {
   padding: 9px 16px !important;
   margin-right: 23px!important;
   margin-left: 5px!important;
+  margin-top: 0px!important;
 }
 
 td .apptbutton:hover, .apptbutton:active {
@@ -1116,7 +1117,32 @@ td .apptbutton.disabled, .apptbutton:disabled {
   background: #E4E4E4 !important;
   border: 2px solid #BBBBBB !important;
 }
+/* Upcoming Appointments Table */
+#firstgridcontainer .secondcolumn{
+  display: contents;
+}
 
+#firstgridcontainer table .secondcolumn .counseling{
+  margin-top: 18px;
+}
+
+#firstgridcontainer .firstcolumn {
+  padding-top: 8px;
+}
+
+#firstgridcontainer .showdetail-button {
+  margin-top: 11px;
+}
+
+#firstgridcontainer .fourthcolumn .apptbutton {
+  margin-top: 2px !important;
+}
+
+.firstcolumn strong {
+  margin-right: 8px;
+}
+
+/* Past Appointments Table */
 /* First Column : Time/Date Column */
 .firstcolumn{
   padding-top: 11px;
