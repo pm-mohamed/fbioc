@@ -1078,7 +1078,7 @@ select.input-lineonly {
 
 .apptable .topright{
   border-top-right-radius: 20px !important;
-  height: 26px;
+  height: 22px;
 } 
 
 .apptable .bottomleft{
@@ -1087,7 +1087,7 @@ select.input-lineonly {
 
 .apptable .bottomright{
   border-bottom-right-radius: 20px !important;
-  height: 26px;
+  height: 22px;
 }
 /* CTA Button */
 td .apptbutton {
