@@ -1117,9 +1117,35 @@ td .apptbutton.disabled, .apptbutton:disabled {
   border: 2px solid #BBBBBB !important;
 }
 
-/* Time/Date text */
+/* First Column : Time/Date Column */
 .firstcolumn{
   padding-top: 11px;
+}
+
+table .firstcolumn {
+  width: 113px !important;
+}
+
+@media (min-width: 768px) {
+  table .firstcolumn {
+    width: 192px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  table .firstcolumn {
+    width: 237px !important;
+  }
+}
+
+/* Second Column */
+/* .counseling is for next appointments and .secondcolumn__narrow is for past appointments */
+.secondcolumn__narrow{
+  display: contents;
+}
+
+.apptable-container table .secondcolumn__narrow .counseling{
+  margin-top: 24px;
 }
 
 /* Show details button */
