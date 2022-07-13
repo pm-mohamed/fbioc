@@ -1231,6 +1231,10 @@ table .firstcolumn {
   flex-basis: 13%;
 }
 
+#sidebar-right .b-sidebar-header .close {
+  opacity: unset;
+}
+
 #sidebar-right .b-sidebar-header .close svg{
   fill:#1C6F62;
   height: 1.5em;
