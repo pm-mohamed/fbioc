@@ -982,38 +982,6 @@ select.input-lineonly {
   padding-right: 37px;
 }
 /*# sourceMappingURL=client.css.map */
-
-/* Header */
-#app .header {
-  border-bottom: none;
-  box-shadow: none;
-}
-/* Progressbar */
-#progressbar{
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-/* General Layout - Container of the progress menu and questions and answers */
-.container-fluid > div > div {
-  align-self: stretch;
-}
-/* Progress Menu Container */
-.progress-menu__wrapper{
-  margin-top: 309px;
-}
-/* Title and choices buttons container */
-.main-content__wrapper {
-  margin-top: 190px;
-}
-
-.container-fluid > div > div:nth-child(2) > div > div {
-  margin-bottom: 115px;
-}
-
-.bigtitlecontainer, .category-row{
-  padding-left: 15px;
-}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>New CSS Rules<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Buttons  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Secondary Button */
@@ -1055,9 +1023,27 @@ select.input-lineonly {
   z-index: 1;
 }
 
+/* Header */
+#app .header {
+  border-bottom: none;
+  box-shadow: none;
+}
+
+/* Progressbar */
 #app #progressbar {
   background-color: #1C6F62;
 }
+
+/* Progress Menu Container */
+.progress-menu__wrapper{
+  margin-top: 309px;
+}
+
+#progressbar{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Create new appointment button */
 #createappointmentbutton{
@@ -1191,11 +1177,30 @@ table .firstcolumn {
 #categorylist {
   padding-left: 0;
 }
+
+/* General Layout - Container of the progress menu and questions and answers */
+.container-fluid > div > div {
+  align-self: stretch;
+}
+
 /* Progress menu */
 #app .progress-menu__wrapper{
   position: fixed;
 }
 /* Right Column of title and choices */
+/* Title and choices buttons container */
+.main-content__wrapper {
+  margin-top: 190px;
+}
+
+.container-fluid > div > div:nth-child(2) > div > div {
+  margin-bottom: 50vh;
+}
+
+.bigtitlecontainer, .category-row{
+  padding-left: 15px;
+}
+
 .main-content__wrapper{
   margin-left: 284px;
 }
