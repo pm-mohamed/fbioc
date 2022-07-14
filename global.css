@@ -1046,6 +1046,7 @@ select.input-lineonly {
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 #container {
@@ -1180,13 +1181,23 @@ table .firstcolumn {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Overall Wrapper */
+#app .page__wrapper{
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#categorylist {
+  padding-left: 0;
+}
 /* Progress menu */
 #app .progress-menu__wrapper{
   position: fixed;
 }
 /* Right Column of title and choices */
 .main-content__wrapper{
-  margin-left: 301px;
+  margin-left: 284px;
 }
 
 /* Title and Question icon */
