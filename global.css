@@ -832,10 +832,6 @@ select.input-lineonly {
   color: #46874B !important;
 }
 
-#app .bg-light {
-  background-color: #FFFFFF !important;
-}
-
 .circlecolumn {
   max-width: 2.3%;
 }
@@ -1010,6 +1006,16 @@ select.input-lineonly {
   border: 2px solid #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#fixedtitle{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  #fixedtitle {
+    display: block;
+  }
+}
+
 .navigation__wrapper{
   position: fixed;
   width: 100%;
@@ -1027,6 +1033,26 @@ select.input-lineonly {
 #app .header {
   border-bottom: none;
   box-shadow: none;
+}
+
+body .navbar {
+  background-color: #FFFFFF !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.navbar .container .navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.navbar .container .navbar-toggler:active{
+  outline: none;
+}
+
+.navbar .container .navbar-collapse.show{
+  height: 200vh;
+  overflow-y: scroll;
 }
 
 /* Progressbar */
