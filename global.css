@@ -1395,3 +1395,26 @@ footer .btn-secondary.disabled, .btn-secondary:disabled {
 footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #BBBBBB !important;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#dayscontainer #dayslist li {
+  margin-right: 10px;
+  width: 60px;
+}
+
+#dayscontainer .navigationlink {
+  margin-left: 20px;
+}
+
+.hour--listcontainer{
+  display: contents;
+}
+
+.hour--listcontainer .hour--list.first{
+  margin-left: 45px !important;
+}
+
+.hour--listcontainer .hour--list{
+  padding-left: 0;
+  margin-right: 25px !important;
+  flex-basis: 20%;
+}
