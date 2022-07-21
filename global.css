@@ -1072,17 +1072,17 @@ body .navbar {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Title and create new appointment wrapper */
-#firstrow div:first-child {
+/* #firstrow div:first-child {
   flex-basis: 100%;
   max-width: 100%;
-}
+} */
 
-@media (min-width: 1024px ) {
+/* @media (min-width: 1024px ) {
   #firstrow div:first-child{
     flex-basis: unset;
     max-width: 50%;
   }
-}
+} */
 
 #firstrow #createappointmentcontainer {
   flex-basis: 100%;
