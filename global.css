@@ -1102,6 +1102,7 @@ body .navbar {
 #createappointmentbutton{
   padding: 16px 45px;
   border-radius: 10px;
+  width: unset;
 }
 
 #app.mycontainer{
@@ -1110,6 +1111,82 @@ body .navbar {
 
 .mycontainer .container{
   margin-top: 110px;
+  padding-left: 36px;
+}
+
+@media (min-width: 1024px ) {
+  .mycontainer .container{
+    padding-left: 15px;
+  }
+}
+
+.apptable{
+  padding-right: 36px;
+}
+
+@media (min-width: 1024px ) {
+  .apptable{
+    padding-right: unset;
+  }
+}
+
+#firstgridcontainer > div {
+  padding-left: 0;
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer > div{
+    padding-left: 15;
+  }
+}
+
+#secondgridcontainer > div{
+  padding-left: 0;
+}
+
+@media (min-width: 1024px ) {
+  #secondgridcontainer > div{
+    padding-left: 15;
+  }
+}
+
+#firstgridcontainer > div > div:nth-child(3){
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer > div > div:nth-child(3){
+    margin-left: -15;
+  }
+}
+
+#secondgridcontainer > div > div:nth-child(3){
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+@media (min-width: 1024px ) {
+  #secondgridcontainer > div > div:nth-child(3){
+    margin-left: -15;
+  }
+}
+
+
+#firstgridcontainer > div > div:nth-child(3) .circlecolumn {
+  flex-basis: 10%;
+}
+
+#secondgridcontainer > div > div:nth-child(3) .circlecolumn {
+  flex-basis: 10%;
+}
+
+#firstgridcontainer > div > div:nth-child(3) > div:nth-child(2) {
+  flex-basis: 90%;
+}
+
+#secondgridcontainer > div > div:nth-child(3) > div:nth-child(2) {
+  flex-basis: 90%;
 }
 
 .apptable .topleft{
