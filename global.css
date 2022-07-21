@@ -1071,6 +1071,33 @@ body .navbar {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Title and create new appointment wrapper */
+#firstrow div:first-child {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px ) {
+  #firstrow div:first-child{
+    flex-basis: unset;
+    max-width: 50%;
+  }
+}
+
+#firstrow #createappointmentcontainer {
+  flex-basis: 100%;
+  max-width: 100%;
+  text-align: left!important;
+}
+
+@media (min-width: 1024px ) {
+  #firstrow #createappointmentcontainer{
+    flex-basis: unset;
+    max-width: 50%;
+    text-align: right!important;
+  }
+}
+
 /* Create new appointment button */
 #createappointmentbutton{
   padding: 16px 45px;
