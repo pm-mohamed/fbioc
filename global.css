@@ -1330,7 +1330,7 @@ table .firstcolumn {
   margin-top: 17px;
 }
 
-/* Cancel Appojntment Modal */
+/* Cancel Appointment Modal */
 #cancelModalPreview___BV_modal_content_{
   padding: 30px 25px;
 }
@@ -1355,11 +1355,55 @@ table .firstcolumn {
 /* Progress menu */
 #app .progress-menu__wrapper{
   position: fixed;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  #app .progress-menu__wrapper{
+    display: block;
+  }
 }
 /* Right Column of title and choices */
 /* Title and choices buttons container */
 .main-content__wrapper {
   margin-top: 190px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .main-content__wrapper{
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-left: 284px;
+    margin-right: 0;
+  }
+}
+
+.category-column{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .category-column{
+    margin-bottom: unset;
+  }
+}
+
+.footer__container .footer__nextbuttoncontainer{
+  flex: 0 0 87%;
+  max-width: 87%;
+  text-align: unset !important;
+}
+
+@media (min-width: 1024px) {
+  .footer__container .footer__nextbuttoncontainer{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: right;
+  }
 }
 
 .container-fluid > div > div:nth-child(2) > div > div {
@@ -1368,10 +1412,6 @@ table .firstcolumn {
 
 .bigtitlecontainer, .category-row{
   padding-left: 15px;
-}
-
-.main-content__wrapper{
-  margin-left: 284px;
 }
 
 /* Title and Question icon */
@@ -1525,8 +1565,14 @@ footer .btn-secondary:hover, .btn-secondary:active {
 footer .btn-secondary span {
   font-family: "Nunito Sans", sans-serif !important;
   color: #272727 !important;
-  font-size: 20px !important;
+  font-size: 16px !important;
   font-weight: 800 !important;
+}
+
+@media (min-width: 1024px) {
+  footer .btn-secondary span {
+    font-size: 20px !important;
+  }
 }
 
 footer .btn-secondary.disabled, .btn-secondary:disabled {
