@@ -1335,7 +1335,7 @@ table .firstcolumn {
   padding: 30px 25px;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level and Second Level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Overall Wrapper */
 #app .page__wrapper{
   max-width: 1140px;
@@ -1386,7 +1386,7 @@ table .firstcolumn {
   margin-bottom: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1240px) {
   .category-column{
     margin-bottom: unset;
   }
@@ -1420,9 +1420,15 @@ table .firstcolumn {
 }
 @media (min-width: 1024px) {
   .footer__container .footer__nextbuttoncontainer{
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+}
+
+@media (min-width: 1240px) {
+  .footer__container .footer__nextbuttoncontainer{
     flex: 0 0 25%;
     max-width: 25%;
-    text-align: right;
   }
 }
 
@@ -1468,7 +1474,19 @@ table .firstcolumn {
 }
 /* Choices buttons containers */
 #app .category-row {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  #app .category-row{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1240px) {
+  #app .category-row{
+    margin-bottom: 20px;
+  }
 }
 
 .category-row div {
@@ -1510,6 +1528,10 @@ table .firstcolumn {
   z-index: 1034;
   background: #BBBBBB 0% 0% no-repeat padding-box;
   opacity: 0.33;
+}
+
+.modality__listcolumn {
+  margin-bottom: 14px;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* I'm Interested in diffrent location checkbox wrapper */
