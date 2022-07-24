@@ -1055,6 +1055,16 @@ body .navbar {
   overflow-y: scroll;
 }
 
+.navigation__iconwrapper{
+  display: none !important;
+}
+
+@media (min-width: 1024px ) {
+  .navigation__iconwrapper{
+    display: flex !important;
+  }
+}
+
 /* Progressbar */
 #app #progressbar {
   background-color: #1C6F62;
@@ -1318,6 +1328,11 @@ table .firstcolumn {
 /* Show details button */
 .showdetail-button{
   margin-top: 17px;
+}
+
+/* Cancel Appojntment Modal */
+#cancelModalPreview___BV_modal_content_{
+  padding: 30px 25px;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
