@@ -980,7 +980,29 @@ select.input-lineonly {
 /*# sourceMappingURL=client.css.map */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>New CSS Rules<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Buttons  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Secondary Button */
+/* Primary Button -- Yellow */
+#logout__rootcontainer .logout__container .nav-link .btn {
+  background-image: linear-gradient(281deg, #E7EA75, #E1E628);
+  border: 0.125rem solid transparent;
+  border-radius: 8px;
+  color: #272727;
+  height: 40px;
+  padding: 9px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logout__rootcontainer .logout__container .nav-link .btn:hover {
+  background: linear-gradient(106deg, #F0F2A8 0%, #EDF081 100%);
+}
+
+#logout__rootcontainer .logout__container .nav-link .btn span {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Secondary Button -- Green */
 .button--secondary {
   min-width: 104px !important;
   background-color: #FFFFFF !important;
@@ -1063,6 +1085,41 @@ body .navbar {
   .navigation__iconwrapper{
     display: flex !important;
   }
+}
+/* Logout Button */
+.logout__container{
+  list-style-type: none;
+}
+
+#logout__rootcontainer .logout__container .nav-link .btn {
+  background-image: linear-gradient(281deg, #E7EA75, #E1E628);
+  border: 0.125rem solid transparent;
+  border-radius: 8px;
+  color: #272727;
+  height: 40px;
+  padding: 9px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logout__rootcontainer .logout__container .nav-link .btn:hover {
+  background: linear-gradient(106deg, #F0F2A8 0%, #EDF081 100%);
+}
+
+#logout__rootcontainer .logout__container .nav-link .btn span {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#logout__rootcontainer{
+  border-left: 2px solid #272727;
+}
+
+#logout__rootcontainer .logout__container .nav-link{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Progressbar */
