@@ -1047,8 +1047,14 @@ select.input-lineonly {
 
 #container {
   position: fixed;
-  top: 105px;
+  top: 75px;
   z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  #container {
+    top: 106px;
+  }
 }
 
 /* Header */
@@ -1694,6 +1700,62 @@ table .firstcolumn {
 
 .modality__listcolumn {
   margin-bottom: 14px;
+}
+
+@media (min-width: 1024px) {
+  .additional-info__wrapper{
+    padding-left: 15px;
+  }
+}
+
+.subtitle__column{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 40px;
+}
+
+@media (min-width: 1024px) {
+  .subtitle__column{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+  }
+}
+
+.additional-info__action__column{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  .additional-info__action__column{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.contactmeinput{
+    width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .contactmeinput{
+    width: 541px !important;
+  }
+}
+
+.circlecolumn{
+  padding-left: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  .circlecolumn{
+    padding-left: 15px;
+  }
+}
+
+.additional-info__footer__container{
+  flex-wrap: nowrap !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* I'm Interested in diffrent location checkbox wrapper */
