@@ -1066,6 +1066,7 @@ body .navbar {
 .navbar .container .navbar-toggler{
   border: none;
   outline: none;
+  z-index: 1000000;
 }
 
 .navbar .container .navbar-toggler:active{
@@ -1073,8 +1074,19 @@ body .navbar {
 }
 
 .navbar .container .navbar-collapse.show{
-  height: 200vh;
+  height: 100vh;
   overflow-y: scroll;
+  margin-top: 50px;
+}
+
+.navbar .container .navbar-collapse{
+  margin-top: 50px;
+}
+
+@media (min-width: 1024px ) {
+  .navbar .container .navbar-collapse{
+    margin-top: unset;
+  }
 }
 
 .navigation__iconwrapper{
@@ -1086,12 +1098,26 @@ body .navbar {
     display: flex !important;
   }
 }
+
+.nav-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (min-width: 1024px ) {
+  .nav-item{
+    justify-content: center;
+  }
+}
+
 /* Navigation Text */
 .nav-item .nav-link p {
   font-size: 16px;
   color: #272727;
   font-weight: bold;
   font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 0;
 }
 
 .nav-item .nav-link p:hover {
