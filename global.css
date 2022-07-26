@@ -1086,6 +1086,34 @@ body .navbar {
     display: flex !important;
   }
 }
+/* Navigation Text */
+.nav-item .nav-link p {
+  font-size: 16px;
+  color: #272727;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nav-item .nav-link p:hover {
+  background: linear-gradient(0deg, #E7EA75 50%, transparent 0%);
+}
+
+/* Header Icons */
+.nav-item .nav-link .searchicon__button, .nav-item .nav-link .faq__button, .nav-item .nav-link .profile__button {
+  background: white;
+  border: none;
+}
+
+.nav-item .nav-link .searchicon__button:active, .nav-item .nav-link .faq__button:active, .nav-item .nav-link .profile__button:active {
+  background-color: white !important;
+  border-color: white !important;
+  background-image: unset !important
+}
+
+#myNavItem .dropdown-toggle:after{
+  display: none;
+}
+
 /* Logout Button */
 .logout__container{
   list-style-type: none;
