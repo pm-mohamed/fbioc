@@ -1061,7 +1061,17 @@ body .navbar {
   background-color: #FFFFFF !important;
   box-shadow: none !important;
   border-bottom: none !important;
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column; */
 }
+
+/* @media (min-width: 1024px ) {
+  .body .navbar {
+    height: unset;
+    flex-direction: unset;
+  }
+} */
 
 .navbar .container .navbar-toggler{
   border: none;
@@ -1074,7 +1084,6 @@ body .navbar {
 }
 
 .navbar .container .navbar-collapse.show{
-  height: 100vh;
   overflow-y: scroll;
   margin-top: 50px;
 }
@@ -1103,6 +1112,23 @@ body .navbar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border-top: 1px solid #BBBBBB;
+}
+
+@media (min-width: 1024px ) {
+  .nav-item{
+    border-top: none;
+  }
+}
+
+.navigation__leftpanel .nav-item:last-child{
+  border-bottom: 1px solid #BBBBBB;
+}
+
+@media (min-width: 1024px ) {
+  .navigation__leftpanel .nav-item:last-child{
+    border-bottom: none;
+  }
 }
 
 @media (min-width: 1024px ) {
@@ -1141,8 +1167,9 @@ body .navbar {
 }
 
 /* Logout Button */
-.logout__container{
+#logout__rootcontainer .logout__container{
   list-style-type: none;
+  border: none;
 }
 
 #logout__rootcontainer .logout__container .nav-link .btn {
@@ -1168,12 +1195,25 @@ body .navbar {
 }
 
 #logout__rootcontainer{
-  border-left: 2px solid #272727;
+  border: none;
+}
+
+@media (min-width: 1024px ) {
+  #logout__rootcontainer{
+    border-left: 2px solid #272727;
+  }
 }
 
 #logout__rootcontainer .logout__container .nav-link{
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 1024px ) {
+  #logout__rootcontainer .logout__container .nav-link{
+    padding-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 /* Progressbar */
