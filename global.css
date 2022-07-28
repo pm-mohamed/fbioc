@@ -1104,16 +1104,6 @@ body .navbar {
   }
 }
 
-.navigation__iconwrapper{
-  display: none !important;
-}
-
-@media (min-width: 1024px ) {
-  .navigation__iconwrapper{
-    display: flex !important;
-  }
-}
-
 .nav-item{
   display: flex;
   justify-content: flex-start;
@@ -1222,16 +1212,15 @@ body .navbar {
   }
 }
 
-#nav-collapse2 {
+/* #nav-collapse2 {
   padding-bottom: 100vh;
-}
+} */
 
 @media (min-width: 1024px ) {
   #nav-collapse2 {
     padding-bottom: unset;
   }
 }
-
 
 /* Progressbar */
 #app #progressbar {
@@ -1350,6 +1339,16 @@ body .navbar {
   }
 }
 
+#secondgridcontainer .fourthcolumn .btn-outline-success{
+  display: none;
+}
+
+@media (min-width: 1024px ) {
+  #secondgridcontainer .fourthcolumn .btn-outline-success{
+    display: block;
+  }
+}
+
 .appointmentsubtitle {
   text-align: left !important;
 }
@@ -1449,12 +1448,37 @@ td .apptbutton.disabled, .apptbutton:disabled {
   padding-top: 8px;
 }
 
-#firstgridcontainer .showdetail-button {
+#firstgridcontainer .thirdcolumn .showdetail-button {
   margin-top: 11px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #firstgridcontainer .thirdcolumn .showdetail-button  {
+    display: block;
+  }
+}
+
+#secondgridcontainer .thirdcolumn .showdetail-button {
+  margin-top: 2px !important;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #secondgridcontainer .thirdcolumn .showdetail-button {
+    display: block;
+  }
 }
 
 #firstgridcontainer .fourthcolumn .apptbutton {
   margin-top: 2px !important;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #firstgridcontainer .fourthcolumn .apptbutton {
+    display: block;
+  }
 }
 
 .firstcolumn strong {
@@ -1879,7 +1903,32 @@ footer .btn-secondary.disabled, .btn-secondary:disabled {
 footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #BBBBBB !important;
 }
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page - Level 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* .timeslot__wrapper #firstrow div:first-child {
+  flex: 0 0 100%;
+  max-width: 0 0 100%;
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper #firstrow div:first-child {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+}
+
+.timeslot__wrapper #firstrow div:last-child {
+  flex: 0 0 100%;
+  max-width: 0 0 100%;
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper #firstrow div:last-child {
+    flex: 58.33333%;
+    max-width: 58.33333%;
+  }
+} */
+
 #dayscontainer #dayslist li {
   margin-right: 10px;
   width: 60px;
@@ -1901,4 +1950,19 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding-left: 0;
   margin-right: 25px !important;
   flex-basis: 20%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Temp Fixes <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.navigation__iconwrapper{
+  display: none !important;
+}
+
+@media (min-width: 1024px ) {
+  .navigation__iconwrapper{
+    display: flex !important;
+  }
+}
+
+.contactinfo__wrapper{
+  display: none;
 }
