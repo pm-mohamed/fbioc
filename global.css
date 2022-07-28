@@ -1965,18 +1965,65 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 .timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
   flex: 0 0 100% !important;
   max-width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (min-width: 1024px) {
   .timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
     flex: 0 0 58.33333% !important;
     max-width: 58.33333% !important;
+    padding-left: 15;
+    padding-right: 15;
+  }
+}
+
+#weeklyslider{
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 1024px) {
+  #weeklyslider{
+    flex-wrap: wrap;
+  }
+}
+
+#dayscontainer{
+  padding-left: 0;
+  padding-right: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #dayscontainer{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
   }
 }
 
 #dayscontainer #dayslist li {
-  margin-right: 10px;
-  width: 60px;
+  margin-right: 0;
+  width: 50px;
+}
+
+@media (min-width: 1024px) {
+  #dayscontainer #dayslist li {
+    margin-right: 10px;
+    width: 60px;
+  }
+}
+
+#dayscontainer #dayslist li a span {
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  #dayscontainer #dayslist li a span {
+    font-size: 18px;
+  }
 }
 
 #dayscontainer .navigationlink {
