@@ -1343,11 +1343,43 @@ body .navbar {
   display: none;
 }
 
-@media (min-width: 1024px ) {
+@media (min-width: 768px ) {
   #secondgridcontainer .fourthcolumn .btn-outline-success{
     display: block;
   }
 }
+
+#firstgridcontainer .secondcolumn .apptbutton{
+  display: block;
+}
+
+@media (min-width: 768px ) {
+  #firstgridcontainer .secondcolumn .apptbutton{
+    display: none;
+  }
+}
+
+#secondgridcontainer .secondcolumn__narrow .apptbutton {
+  display: block;
+}
+
+@media (min-width: 768px ) {
+  #secondgridcontainer .secondcolumn__narrow .apptbutton{
+    display: none;
+  }
+}
+
+#firstgridcontainer .fourthcolumn .showdetail-button, #secondgridcontainer .fourthcolumn .showdetail-button{
+  display: block;
+}
+
+@media (min-width: 768px ) {
+  #firstgridcontainer .fourthcolumn .showdetail-button, #secondgridcontainer .fourthcolumn .showdetail-button{
+    display: none;
+  }
+}
+
+
 
 .appointmentsubtitle {
   text-align: left !important;
