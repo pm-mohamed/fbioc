@@ -1944,30 +1944,35 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page - Level 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-/* .timeslot__wrapper #firstrow div:first-child {
-  flex: 0 0 100%;
-  max-width: 0 0 100%;
-}
-
 @media (min-width: 1024px) {
-  .timeslot__wrapper #firstrow div:first-child {
-    flex: 0 0 41.66667%;
-    max-width: 41.66667%;
+  .select-language__wrapper .category-column {
+    margin-bottom: 0;
   }
 }
 
-.timeslot__wrapper #firstrow div:last-child {
-  flex: 0 0 100%;
-  max-width: 0 0 100%;
+.timeslot__wrapper #firstrow .first-row__column:first-child {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
 }
 
 @media (min-width: 1024px) {
-  .timeslot__wrapper #firstrow div:last-child {
-    flex: 58.33333%;
-    max-width: 58.33333%;
+  .timeslot__wrapper #firstrow .first-row__column:first-child {
+    flex: 0 0 41.66667% !important;
+    max-width: 41.66667% !important;
   }
-} */
+}
+
+.timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
+    flex: 0 0 58.33333% !important;
+    max-width: 58.33333% !important;
+  }
+}
 
 #dayscontainer #dayslist li {
   margin-right: 10px;
