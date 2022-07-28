@@ -1950,6 +1950,16 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   }
 }
 
+.timeslot__wrapper #firstrow{
+  margin-bottom: 30px !important;
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper #firstrow{
+    margin-bottom: 94px !important;
+  }
+}
+
 .timeslot__wrapper .smallertitle {
   font-size: 26px;
 }
@@ -2059,6 +2069,46 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding-left: 0;
   margin-right: 25px !important;
   flex-basis: 20%;
+}
+
+#slotrow > div > .slot-row__column:first-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #slotrow > div > .slot-row__column:first-child {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+}
+
+#slotrow > div > .slot-row__column:nth-child(2) {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #slotrow > div > .slot-row__column:nth-child(2) {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+}
+
+.provider-detail__column{
+  display: inherit;
+}
+
+.provider-detail__column .profileimage--container{
+  width: 80px;
+  height: 80px;
+}
+
+@media (min-width: 1024px) {
+  .provider-detail__column .profileimage--container{
+    width: 135px;
+    height: 135px;
+  }
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Temp Fixes <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
