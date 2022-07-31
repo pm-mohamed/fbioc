@@ -1028,6 +1028,16 @@ select.input-lineonly {
   border: 2px solid #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.navbar__container .navigation__brand{
+  margin-right: 0;
+}
+
+@media (min-width: 1024px) {
+  .navbar__container .navigation__brand{
+    margin-right: 16px;
+  }
+}
+
 #fixedtitle{
   display: none;
 }
@@ -1042,10 +1052,25 @@ select.input-lineonly {
   }
 }
 
-@media (min-width: 1024px) {
-  .navicon__mobile {
-    display: none !important;
+.navbar__container .navicon__mobile{
+  flex-direction: row;
+}
+
+@media (min-width: 768px) {
+  .navbar__container .navicon__mobile {
+    margin-left: 44vw;
   }
+}
+
+@media (min-width: 1024px) {
+  .navbar__container .navicon__mobile {
+    display: none !important;
+    margin-left: 0;
+  }
+}
+
+.navicon__mobile .nav-item {
+  border-top: none;
 }
 
 @media (min-width: 1024px) {
@@ -1057,6 +1082,7 @@ select.input-lineonly {
 /* If Sibiling A has all class names of .navbar-collapse .collapse .show then Sibiling B display block */
 .navbar-collapse.collapse.show ~ .contactinfo__wrapper{
   display: block !important;
+  padding-bottom: 50vh;
 }
 
 @media (min-width: 1024px) {
