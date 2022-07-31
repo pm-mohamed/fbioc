@@ -2121,18 +2121,47 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-left: 20px;
 }
 
+.hour--listcontainer .hour--list .hour{
+  width: 54px;
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer .hour--list .hour{
+    width: 66px;
+  }
+}
+
 .hour--listcontainer{
-  display: contents;
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer{
+    display: contents;
+  }
 }
 
 .hour--listcontainer .hour--list.first{
-  margin-left: 45px !important;
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer .hour--list.first{
+    margin-left: 45px !important;
+  }
 }
 
 .hour--listcontainer .hour--list{
-  padding-left: 0;
-  margin-right: 25px !important;
+  padding: 0 !important;
+  margin: 0 !important;
   flex-basis: 20%;
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer .hour--list{
+    margin-right: 5px !important;
+  }
 }
 
 #slotrow > div > .slot-row__column:first-child {
@@ -2150,12 +2179,16 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 #slotrow > div > .slot-row__column:nth-child(2) {
   flex: 0 0 100%;
   max-width: 100%;
+  position: absolute;
+  margin-top: 100px;
 }
 
 @media (min-width: 1024px) {
   #slotrow > div > .slot-row__column:nth-child(2) {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
+    position: unset;
+    margin-top: unset;
   }
 }
 
