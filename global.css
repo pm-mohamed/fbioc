@@ -2019,10 +2019,17 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-left: -5vw;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .timeslot__wrapper #firstrow{
     margin-bottom: 94px !important;
     margin-left: unset;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper #firstrow{
+    flex-wrap: unset;
   }
 }
 
@@ -2030,7 +2037,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-size: 26px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .timeslot__wrapper .smallertitle {
     font-size: 32px;
   }
@@ -2044,13 +2051,20 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+  .timeslot__wrapper #firstrow .first-row__column:first-child {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
 @media (min-width: 1024px) {
   .timeslot__wrapper #firstrow .first-row__column:first-child {
     flex: 0 0 41.66667% !important;
     max-width: 41.66667% !important;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 0;
   }
 }
 
@@ -2061,12 +2075,17 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding-right: 0;
 }
 
+@media (min-width: 768px) {
+  .timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+  }
+}
+
 @media (min-width: 1024px) {
   .timeslot__wrapper #firstrow .first-row__column:nth-child(2) {
     flex: 0 0 58.33333% !important;
     max-width: 58.33333% !important;
-    padding-left: 15;
-    padding-right: 15;
   }
 }
 
@@ -2074,7 +2093,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   flex-wrap: nowrap;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #weeklyslider{
     flex-wrap: wrap;
     margin-left: 0;
@@ -2088,12 +2107,21 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   max-width: 100%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #dayscontainer{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0!important;
+    margin: 0!important;
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #dayscontainer{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
   }
 }
 
@@ -2102,7 +2130,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   width: 50px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width:  768px) {
+  #dayscontainer #dayslist li {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1240px) {
   #dayscontainer #dayslist li {
     margin-right: 10px;
     width: 60px;
@@ -2132,7 +2166,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   align-items: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .hour--listcontainer .hour--list .hour{
     width: 66px;
     font-size: 16px;
@@ -2144,7 +2178,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   display: flex;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .hour--listcontainer{
     display: contents;
   }
@@ -2155,7 +2189,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding: 0 !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .hour--listcontainer .hour--list.first{
     margin-left: 45px !important;
   }
@@ -2173,7 +2207,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   max-width: 100%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #slotrow > div > .slot-row__column:first-child {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
@@ -2187,7 +2221,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-top: 100px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #slotrow > div > .slot-row__column:nth-child(2) {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
@@ -2205,7 +2239,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   height: 80px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .provider-detail__column .profileimage--container{
     width: 135px;
     height: 135px;
