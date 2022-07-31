@@ -2163,14 +2163,9 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .hour--listcontainer .hour--list{
   padding: 0 !important;
-  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 5px !important;
   flex-basis: 20%;
-}
-
-@media (min-width: 1024px) {
-  .hour--listcontainer .hour--list{
-    margin-right: 5px !important;
-  }
 }
 
 #slotrow > div > .slot-row__column:first-child {
