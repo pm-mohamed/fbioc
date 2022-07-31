@@ -2016,11 +2016,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page - Level 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .timeslot__wrapper #firstrow{
   margin-bottom: 30px !important;
+  margin-left: -5vw;
 }
 
 @media (min-width: 1024px) {
   .timeslot__wrapper #firstrow{
     margin-bottom: 94px !important;
+    margin-left: unset;
   }
 }
 
@@ -2123,11 +2125,18 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .hour--listcontainer .hour--list .hour{
   width: 54px;
+  font-size: 14px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
   .hour--listcontainer .hour--list .hour{
     width: 66px;
+    font-size: 16px;
+    padding: 12px;
   }
 }
 
