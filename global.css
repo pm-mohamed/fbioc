@@ -1073,6 +1073,11 @@ select.input-lineonly {
   border-top: none;
 }
 
+.navicon__mobile .nav-item.faq__container {
+  display: none;
+}
+
+
 @media (min-width: 1024px) {
   #fixedtitle {
     display: block;
@@ -1144,6 +1149,10 @@ body .navbar {
   border: none;
   outline: none;
   z-index: 1000000;
+  border-left: 2px solid black;
+  border-radius: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar .container .navbar-toggler:active{
@@ -2005,12 +2014,6 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page - Level 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-@media (min-width: 1024px) {
-  .select-language__wrapper .category-column {
-    margin-bottom: 0;
-  }
-}
-
 .timeslot__wrapper #firstrow{
   margin-bottom: 30px !important;
 }
