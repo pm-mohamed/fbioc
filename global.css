@@ -1032,9 +1032,36 @@ select.input-lineonly {
   display: none;
 }
 
+.navicon__desktop{
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .navicon__desktop{
+    display: flex !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navicon__mobile {
+    display: none !important;
+  }
+}
+
 @media (min-width: 1024px) {
   #fixedtitle {
     display: block;
+  }
+}
+
+/* If Sibiling A has all class names of .navbar-collapse .collapse .show then Sibiling B display block */
+.navbar-collapse.collapse.show ~ .contactinfo__wrapper{
+  display: block !important;
+}
+
+@media (min-width: 1024px) {
+  .navbar-collapse.collapse.show ~ .contactinfo__wrapper{
+    display: none !important;
   }
 }
 
@@ -2109,19 +2136,4 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     width: 135px;
     height: 135px;
   }
-}
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Temp Fixes <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-.navigation__iconwrapper{
-  display: none !important;
-}
-
-@media (min-width: 1024px ) {
-  .navigation__iconwrapper{
-    display: flex !important;
-  }
-}
-
-.contactinfo__wrapper{
-  display: none;
 }
