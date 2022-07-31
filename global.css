@@ -1082,6 +1082,7 @@ select.input-lineonly {
 /* If Sibiling A has all class names of .navbar-collapse .collapse .show then Sibiling B display block */
 .navbar-collapse.collapse.show ~ .contactinfo__wrapper{
   display: block !important;
+  margin-top: 40px;
   padding-bottom: 50vh;
 }
 
@@ -1089,6 +1090,13 @@ select.input-lineonly {
   .navbar-collapse.collapse.show ~ .contactinfo__wrapper{
     display: none !important;
   }
+}
+
+.navbar-collapse.collapse.show ~ .contactinfo__wrapper a, .navbar-collapse.collapse.show ~ .contactinfo__wrapper p{
+font-size: 14px;
+font-family: "Nunito Sans", sans-serif !important;
+color: #272727;
+margin-bottom: 0;
 }
 
 .navigation__wrapper{
