@@ -2251,11 +2251,23 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 .provider-detail__column .profileimage--container{
   width: 80px;
   height: 80px;
+  position: absolute;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .provider-detail__column .profileimage--container{
     width: 135px;
     height: 135px;
+    position: unset;
+  }
+}
+
+.providerdetail .rightcolumn{
+  margin-left: 100px !important;
+}
+
+@media (min-width: 1024px) {
+  .providerdetail .rightcolumn{
+    margin-left: 25px!important;
   }
 }
