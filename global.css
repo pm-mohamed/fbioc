@@ -2166,7 +2166,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .hour--listcontainer .hour--list .hour{
     width: 66px;
     font-size: 16px;
@@ -2209,6 +2209,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 768px) {
   #slotrow > div > .slot-row__column:first-child {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #slotrow > div > .slot-row__column:first-child {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
@@ -2223,10 +2230,17 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 768px) {
   #slotrow > div > .slot-row__column:nth-child(2) {
-    flex: 0 0 58.33333%;
-    max-width: 58.33333%;
+    flex: 0 0 67%;
+    max-width: 67%;
     position: unset;
     margin-top: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  #slotrow > div > .slot-row__column:nth-child(2) {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
   }
 }
 
