@@ -2139,6 +2139,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   }
 }
 
+@media (min-width: 1024px) {
+  #dayscontainer #dayslist li {
+    margin-right: 5px;
+    width: 56px;
+  }
+}
+
 @media (min-width: 1240px) {
   #dayscontainer #dayslist li {
     margin-right: 10px;
@@ -2170,6 +2177,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     display: contents;
     margin-left: unset;
   }
+}
+
+.hour--listcontainer .hour--list{
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 5px !important;
+  flex-basis: 10%;
 }
 
 .hour--listcontainer .hour--list li{
@@ -2209,12 +2223,32 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     margin-left: 45px !important;
   }
 }
+#slotrow {
+  display: flex;
+  flex-direction: column;
+}
 
-.hour--listcontainer .hour--list{
-  padding: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 5px !important;
-  flex-basis: 20%;
+@media (min-width: 768px) {
+  #slotrow {
+    display: unset;
+    flex-direction: unset;
+  }
+}
+
+#slotrow > div {
+flex-basis: 100vh;
+}
+
+@media (min-width: 667px) {
+  #slotrow > div {
+    flex-basis: 160vh;
+    }
+}
+
+@media (min-width: 768px) {
+  #slotrow > div {
+    flex-basis: unset;
+    }
 }
 
 #slotrow > div > .slot-row__column:first-child {
