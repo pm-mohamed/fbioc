@@ -1679,6 +1679,38 @@ table .firstcolumn {
   margin-right: -30px;
   margin-top: -10px;
 }
+
+#cancelModalPreview___BV_modal_header_ .bigtitle{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+}
+
+@media (min-width:  768px) {
+  #cancelModalPreview___BV_modal_header_ .bigtitle{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 26px;
+  }
+}
+
+#cancelModalPreview___BV_modal_body_ .subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+@media (min-width:  768px) {
+  #cancelModalPreview___BV_modal_body_ .subtitle {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+  }
+}
+
+@media (min-width:  1024px) {
+  #cancelModalPreview___BV_modal_body_ .subtitle {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+  }
+}
+
 /* #cancelModalPreview{
   top: 70px;
 }
