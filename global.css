@@ -1627,6 +1627,19 @@ table .firstcolumn {
 }
 
 /* Cancel Appointment Modal */
+@media (min-width: 768px) {
+  #cancelModalPreview .modal-dialog {
+    max-width: 80vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  #cancelModalPreview .modal-dialog {
+    max-width: 60vw;
+  }
+}
+
+
 #cancelModalPreview___BV_modal_content_{
   padding: 30px 25px;
   margin-top: 70px;
@@ -1635,18 +1648,6 @@ table .firstcolumn {
 @media (min-width: 667px) {
   #cancelModalPreview___BV_modal_content_{
     margin-top: 50px;
-  }
-}
-
-@media (min-width: 667px) {
-  #cancelModalPreview___BV_modal_content_{
-    margin-top: 50px;
-  }
-}
-
-@media (min-width: 1024px) {
-  #cancelModalPreview___BV_modal_content_{
-    margin-top: 0;
   }
 }
 
@@ -1737,12 +1738,22 @@ table .firstcolumn {
   margin-top: 90px;
 }
 
+@media (min-width:  768px) {
+  #cancelModalPreview___BV_modal_body_ .cancel-action__container{
+    justify-content: flex-end;
+  }
+}
+
 #cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-link {
   font-size: 16px;
 }
 
 #cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-secondary .primary-button--text {
   font-size: 16px;
+}
+
+#cancelModalPreview .apptable-rowdetails p {
+  max-width: unset;
 }
 
 /* #cancelModalPreview{
