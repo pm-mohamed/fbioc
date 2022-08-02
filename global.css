@@ -1711,6 +1711,40 @@ table .firstcolumn {
   }
 }
 
+#cancelModalPreview___BV_modal_body_ .firstcolumn__preview {
+  width: 30%;
+}
+
+@media (min-width:  1024px) {
+  #cancelModalPreview___BV_modal_body_ .firstcolumn__preview {
+    width: 20%;
+  }
+}
+
+#cancelModalPreview___BV_modal_body_ .secondcolumn__preview{
+  width: 70%;
+}
+
+@media (min-width:  1024px) {
+  #cancelModalPreview___BV_modal_body_ .secondcolumn__preview{
+    width: 80%;
+  }
+}
+
+#cancelModalPreview___BV_modal_body_ .cancel-action__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+#cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-link {
+  font-size: 16px;
+}
+
+#cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-secondary .primary-button--text {
+  font-size: 16px;
+}
+
 /* #cancelModalPreview{
   top: 70px;
 }
