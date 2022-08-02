@@ -1631,6 +1631,15 @@ table .firstcolumn {
   padding: 30px 25px;
 }
 
+#cancelModalPreview___BV_modal_backdrop_{
+  width: 150vw;
+  height: 150vh;
+}
+
+/* #cancelModalPreview{
+  top: 70px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level and Second Level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Overall Wrapper */
 #app .page__wrapper{
@@ -2332,5 +2341,3 @@ flex-basis: 100vh;
     width: 100%;
   }
 }
-
-
