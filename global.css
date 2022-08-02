@@ -1629,6 +1629,25 @@ table .firstcolumn {
 /* Cancel Appointment Modal */
 #cancelModalPreview___BV_modal_content_{
   padding: 30px 25px;
+  margin-top: 70px;
+}
+
+@media (min-width: 667px) {
+  #cancelModalPreview___BV_modal_content_{
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 667px) {
+  #cancelModalPreview___BV_modal_content_{
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #cancelModalPreview___BV_modal_content_{
+    margin-top: 0;
+  }
 }
 
 #cancelModalPreview___BV_modal_backdrop_{
@@ -1636,6 +1655,30 @@ table .firstcolumn {
   height: 150vh;
 }
 
+#cancelModalPreview .apptable {
+  padding-right: 0;
+}
+
+#cancelModalPreview #cancelModalPreview___BV_modal_header_ {
+  padding-top: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #cancelModalPreview #cancelModalPreview___BV_modal_header_ {
+    padding-top: 38px !important;
+  }
+}
+
+@media (min-width:  1024px) {
+  #cancelModalPreview #cancelModalPreview___BV_modal_header_ {
+    padding-top: 64px !important;
+  }
+}
+
+#cancelModalPreview___BV_modal_header_ #closeModal{
+  margin-right: -30px;
+  margin-top: -10px;
+}
 /* #cancelModalPreview{
   top: 70px;
 }
