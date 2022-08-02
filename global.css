@@ -1656,6 +1656,24 @@ table .firstcolumn {
   height: 150vh;
 }
 
+#cancelModal___BV_modal_backdrop_{
+  width: 150vw;
+  height: 150vh;
+}
+
+#cancelModal___BV_modal_body_ #message {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (min-width: 768px) {
+  #cancelModal___BV_modal_body_ #message {
+    font-size: 26px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+}
+
+
 #cancelModalPreview .apptable {
   padding-right: 0;
 }
@@ -1748,8 +1766,20 @@ table .firstcolumn {
   font-size: 16px;
 }
 
+@media (min-width:  1024px) {
+  #cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-link {
+    font-size: 20px;
+  }
+}
+
 #cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-secondary .primary-button--text {
   font-size: 16px;
+}
+
+@media (min-width:  1024px) {
+  #cancelModalPreview___BV_modal_body_ .cancel-action__container .btn-secondary .primary-button--text  {
+    font-size: 20px;
+  }
 }
 
 #cancelModalPreview .apptable-rowdetails p {
@@ -2459,5 +2489,17 @@ flex-basis: 100vh;
 @media (min-width: 1024px) {
   #firstavailable--dropdown{
     width: 100%;
+  }
+}
+
+#successbooked #message {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (min-width: 768px) {
+  #successbooked #message {
+    font-size: 26px;
+    font-family: "Nunito Sans", sans-serif;
   }
 }
