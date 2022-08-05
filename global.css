@@ -2480,6 +2480,12 @@ flex-basis: 100vh;
   }
 }
 
+@media (min-width: 768px) {
+  .provider-detail__wrapper .providerdetail{
+    display: flex !important;
+  }
+}
+
 .providerdetail__mobile__column {
   display: block;
 }
