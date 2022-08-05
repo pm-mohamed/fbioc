@@ -2433,7 +2433,7 @@ flex-basis: 100vh;
   flex: 0 0 100%;
   max-width: 100%;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 @media (min-width: 768px) {
@@ -2468,6 +2468,34 @@ flex-basis: 100vh;
     height: 135px;
     position: unset;
   }
+}
+
+.rightcolumn > .counselorname{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .rightcolumn > .counselorname{
+    display: block;
+  }
+}
+
+.providerdetail__mobile__column {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .providerdetail__mobile__column {
+    display: none;
+  }
+}
+
+.providerdetail__mobile__column .showdetail-button{
+  margin-top: 0;
+}
+
+.providerdetail__mobile__column .showdetail-button .arrow{
+  filter: invert(30%) sepia(97%) saturate(355%) hue-rotate(122deg) brightness(92%) contrast(85%);
 }
 
 .providerdetail .rightcolumn{
