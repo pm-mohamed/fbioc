@@ -2064,6 +2064,13 @@ table .firstcolumn {
 .additional-info__footer__container{
   flex-wrap: nowrap !important;
 }
+
+#sidebar-right{
+  background: white !important;
+}
+.mysidebar--body{
+  margin-bottom: 200px;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* I'm Interested in diffrent location checkbox wrapper */
 #app .custom-control{
