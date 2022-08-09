@@ -1794,8 +1794,17 @@ table .firstcolumn {
 /* Overall Wrapper */
 #app .page__wrapper{
   max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px){
+  #app .page__wrapper{
+    justify-content: unset;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 #categorylist {
@@ -1822,16 +1831,21 @@ table .firstcolumn {
 /* Title and choices buttons container */
 .main-content__wrapper {
   margin-top: 190px;
-  flex: 0 0 100%;
-  max-width: 100%;
+  flex: 0 0 75% !important;
+  max-width: 100% !important;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (min-width: 768px) {
+  .main-content__wrapper {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+  }  
+}
+
 @media (min-width: 1024px) {
   .main-content__wrapper{
-    flex: 0 0 75%;
-    max-width: 75%;
     margin-left: 284px;
     margin-right: 0;
   }
@@ -2413,12 +2427,14 @@ flex-basis: 100vh;
 #slotrow > div > .slot-row__column:first-child {
   flex: 0 0 100%;
   max-width: 100%;
+  max-height: 150px;
 }
 
 @media (min-width: 768px) {
   #slotrow > div > .slot-row__column:first-child {
     flex: 0 0 33%;
     max-width: 33%;
+    max-height: unset;
   }
 }
 
@@ -2432,16 +2448,14 @@ flex-basis: 100vh;
 #slotrow > div > .slot-row__column:nth-child(2) {
   flex: 0 0 100%;
   max-width: 100%;
-  position: absolute;
-  margin-top: 150px;
+  position: unset;
+  margin-top: 0;
 }
 
 @media (min-width: 768px) {
   #slotrow > div > .slot-row__column:nth-child(2) {
     flex: 0 0 67%;
     max-width: 67%;
-    position: unset;
-    margin-top: unset;
   }
 }
 
@@ -2535,5 +2549,15 @@ flex-basis: 100vh;
   #successbooked #message {
     font-size: 26px;
     font-family: "Nunito Sans", sans-serif;
+  }
+}
+
+#previousnavigation{
+  padding-left: 35px;
+}
+
+@media (min-width: 768px) {
+  #previousnavigation{
+    padding-left: 15px;
   }
 }
