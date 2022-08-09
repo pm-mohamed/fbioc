@@ -1308,18 +1308,39 @@ body .navbar {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Title and create new appointment wrapper */
-/* #firstrow div:first-child {
-  flex-basis: 100%;
-  max-width: 100%;
-} */
+.dashboard__title__row{
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  top: 0;
+}
 
-/* @media (min-width: 1024px ) {
-  #firstrow div:first-child{
-    flex-basis: unset;
-    max-width: 50%;
+@media (min-width: 992px ) {
+  .dashboard__title__row{
+    top: 35px;
+    height: 200px;
+    width: 960px;
   }
-} */
+}
+
+@media (min-width: 1240px ) {
+  .dashboard__title__row{
+    width: 1140px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  .dashboard__title__column{
+    margin-top: 112px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #createappointmentcontainer{
+    margin-top: 112px;
+  }
+}
+
 
 #firstrow #createappointmentcontainer {
   flex-basis: 100%;
@@ -1365,6 +1386,11 @@ body .navbar {
   .apptable{
     padding-right: unset;
   }
+}
+
+#firstgridcontainer {
+  margin-left: 0;
+  margin-top: 200px;
 }
 
 #firstgridcontainer > div {
@@ -1455,10 +1481,6 @@ body .navbar {
 
 .appointmentsubtitle {
   text-align: left !important;
-}
-
-#firstgridcontainer {
-  margin-left: 0;
 }
 
 #secondgridcontainer {
