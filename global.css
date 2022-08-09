@@ -2264,9 +2264,23 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Request Counselling Session Page - Level 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.timeslot__wrapper{
+  padding-top: 100px;
+}
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper{
+    padding-top: 100px;
+  }
+}
+
 .timeslot__wrapper #firstrow{
   margin-bottom: 30px !important;
   margin-left: -5vw;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  top: 200px;
 }
 
 @media (min-width: 768px) {
@@ -2274,22 +2288,52 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     margin-bottom: 94px !important;
     margin-left: unset;
     flex-wrap: nowrap;
+    top: 240px;
   }
 }
 
 @media (min-width: 1024px) {
   .timeslot__wrapper #firstrow{
     flex-wrap: unset;
+    width: 75vw;
+    margin-bottom: 0 !important;
+    margin-right: 0;
+    top: 220px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .timeslot__wrapper #firstrow{
+    width: 850px;
   }
 }
 
 .timeslot__wrapper .smallertitle {
   font-size: 26px;
+  position: fixed;
+  z-index: 100;
+  top: 80px;
+  width: 100vw;
+  background: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  height: 200px;
 }
 
 @media (min-width: 768px) {
   .timeslot__wrapper .smallertitle {
     font-size: 32px;
+    height: unset;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .timeslot__wrapper .smallertitle {
+    padding-top: 70px;
+    top: 100px;
   }
 }
 
@@ -2299,6 +2343,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 30px;
+  padding-right: 40px;
 }
 
 @media (min-width: 768px) {
@@ -2306,6 +2351,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     flex: 0 0 40% !important;
     max-width: 40% !important;
     margin-bottom: 0;
+    padding-right: 80px;
   }
 }
 
@@ -2313,7 +2359,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   .timeslot__wrapper #firstrow .first-row__column:first-child {
     flex: 0 0 41.66667% !important;
     max-width: 41.66667% !important;
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 15px;
   }
 }
@@ -2370,7 +2416,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 1024px) {
   #dayscontainer{
-    padding-left: 15px !important;
+    padding-left: 0px !important;
     padding-right: 15px !important;
     margin-right: 5px !important;
     margin-left: 5px !important;
@@ -2457,9 +2503,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 1024px) {
   .hour--listcontainer .hour--list .hour{
-    width: 66px;
+    width: 55px;
     font-size: 16px;
     padding: 12px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .hour--listcontainer .hour--list .hour{
+    width: 66px;
   }
 }
 
@@ -2473,20 +2525,23 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     margin-left: 45px !important;
   }
 }
+
 #slotrow {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 @media (min-width: 768px) {
   #slotrow {
     display: unset;
     flex-direction: unset;
+    margin-top: unset;
   }
 }
 
 #slotrow > div {
-flex-basis: 100vh;
+  flex-basis: 100vh;
 }
 
 @media (min-width: 667px) {
@@ -2498,7 +2553,8 @@ flex-basis: 100vh;
 @media (min-width: 768px) {
   #slotrow > div {
     flex-basis: unset;
-    }
+    margin-top: 100px;
+  }
 }
 
 #slotrow > div > .slot-row__column:first-child {
