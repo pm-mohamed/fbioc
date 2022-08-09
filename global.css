@@ -1313,6 +1313,19 @@ body .navbar {
   z-index: 100;
   background-color: white;
   top: 0;
+  margin-top: 0 !important;
+  padding-top: 120px !important;
+}
+
+@media (min-width: 768px ) {
+  .dashboard__title__row{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    top: 0;
+    margin-top: 71px !important;
+    padding-top: 0 !important;
+  }
 }
 
 @media (min-width: 992px ) {
@@ -1329,6 +1342,18 @@ body .navbar {
   }
 }
 
+.dashboard__title__row .dashboard__title__column{
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+@media (min-width: 768px ) {
+  .dashboard__title__row .dashboard__title__column{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
 @media (min-width: 1024px ) {
   .dashboard__title__column{
     margin-top: 112px;
@@ -1338,6 +1363,16 @@ body .navbar {
 @media (min-width: 1024px ) {
   #createappointmentcontainer{
     margin-top: 112px;
+  }
+}
+
+.dashboard__paragraph{
+  font-size: 26px !important;
+}
+
+@media (min-width: 1024px ) {
+  .dashboard__paragraph{
+    font-size: 32px !important;
   }
 }
 
@@ -1469,6 +1504,7 @@ body .navbar {
 
 #firstgridcontainer .fourthcolumn .showdetail-button, #secondgridcontainer .fourthcolumn .showdetail-button{
   display: block;
+  margin-top: 5px;
 }
 
 @media (min-width: 768px ) {
@@ -1477,10 +1513,15 @@ body .navbar {
   }
 }
 
-
-
 .appointmentsubtitle {
   text-align: left !important;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  .appointmentsubtitle {
+    font-size: 26px;
+  }
 }
 
 #secondgridcontainer {
@@ -1525,11 +1566,13 @@ body .navbar {
 
 .apptable-rowdetails p{
   max-width: 90px;
+  font-size: 14px;
 }
 
 @media (min-width: 1024px ) {
   .apptable-rowdetails p{
     max-width: unset;
+    font-size: 18px;
   }
 }
 
@@ -1568,6 +1611,13 @@ td .apptbutton.disabled, .apptbutton:disabled {
 
 #firstgridcontainer table .secondcolumn .counseling{
   margin-top: 18px;
+  font-size: 14px !important;
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer table .secondcolumn .counseling{
+    font-size: 18px !important;
+  }
 }
 
 #firstgridcontainer .firstcolumn {
@@ -1609,6 +1659,13 @@ td .apptbutton.disabled, .apptbutton:disabled {
 
 .firstcolumn strong {
   margin-right: 8px;
+  font-size: 14px;
+}
+
+@media (min-width: 1024px ) {
+  .firstcolumn strong {
+    font-size: 18px;
+  }
 }
 
 /* Past Appointments Table */
@@ -1641,6 +1698,13 @@ table .firstcolumn {
 
 .apptable-container table .secondcolumn__narrow .counseling{
   margin-top: 24px;
+  font-size: 14px;
+}
+
+@media (min-width: 1024px ) {
+  .apptable-container table .secondcolumn__narrow .counseling{
+    font-size: 18px;
+  }
 }
 
 /* Show details button */
