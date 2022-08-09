@@ -2077,6 +2077,25 @@ table .firstcolumn {
   z-index: 0;
   padding-bottom: 115px;
 }
+
+.modal-dialog #choosedifflocpopup___BV_modal_content_{
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog #choosedifflocpopup___BV_modal_content_{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-dialog #choosedifflocpopup___BV_modal_content_{
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 #app .container-fluid > div > div:nth-child(2) > div:nth-child(2){
   height: 234px !important;
