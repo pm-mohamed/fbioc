@@ -2619,3 +2619,8 @@ flex-basis: 100vh;
 #preview___BV_modal_content_ .preview-action__column{
   margin-top: 126px !important;
 }
+
+#successbooked___BV_modal_backdrop_{
+  width: 150vw;
+  height: 150vh;
+}
