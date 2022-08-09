@@ -1927,6 +1927,27 @@ table .firstcolumn {
   margin-bottom: 50vh;
 }
 
+.bigtitlecontainer{
+  position: fixed;
+  background: white;
+  z-index: 100;
+  top: 0;
+  padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .bigtitlecontainer{
+    padding-top: 150px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bigtitlecontainer{
+    padding-top: 200px;
+  }
+}
+
 .bigtitlecontainer, .category-row{
   padding-left: 0;
   justify-content: center;
@@ -1954,6 +1975,13 @@ table .firstcolumn {
 .bigtitlecontainer div:first-child {
   padding-left: 0;
   max-width: 100%;
+  font-size: 26px;
+}
+
+@media (min-width: 1240px) {
+  .bigtitlecontainer div:first-child {
+    font-size: 32px;
+  }
 }
 /* Question icon container */
 .bigtitlecontainer div:nth-child(2) {
@@ -1966,6 +1994,7 @@ table .firstcolumn {
 /* Choices buttons containers */
 #app .category-row {
   margin-bottom: 0;
+  margin-top: 100px;
 }
 
 @media (min-width: 1024px) {
