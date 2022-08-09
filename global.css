@@ -2587,3 +2587,35 @@ flex-basis: 100vh;
     padding-left: 15px;
   }
 }
+
+#preview___BV_modal_backdrop_{
+  width: 150vw;
+  height: 150vh;
+}
+
+#preview___BV_modal_content_{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #preview___BV_modal_content_{
+    padding-right: 60px !important;
+    padding-left: 60px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #preview___BV_modal_content_{
+    padding-right: 104px !important;
+    padding-left: 104px !important;
+  }
+}
+
+#preview___BV_modal_backdrop_ .apptable{
+  padding-right: 0 !important;
+}
+
+#preview___BV_modal_content_ .preview-action__column{
+  margin-top: 126px !important;
+}
