@@ -1029,7 +1029,7 @@ select.input-lineonly {
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* .navbar__container{
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
 } */
 
 .navbar__container .navigation__brand{
