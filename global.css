@@ -1028,20 +1028,16 @@ select.input-lineonly {
   border: 2px solid #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* .navbar__container{
-  flex-wrap: nowrap !important;
-} */
-
 .navbar__container .navigation__brand{
   margin-right: 0;
-  /* flex-basis: 70%; */
+  flex-basis: 60%;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar__container .navigation__brand{
     flex-basis: unset;
   }
-} */
+}
 
 @media (min-width: 1024px) {
   .navbar__container .navigation__brand{
@@ -1065,14 +1061,14 @@ select.input-lineonly {
 
 .navbar__container .navicon__mobile{
   flex-direction: row;
-  /* flex-basis: 5%;
-  margin-right: 20px; */
+  flex-basis: 10%;
+  /* margin-right: 20px; */
 }
 
 @media (min-width: 768px) {
   .navbar__container .navicon__mobile {
     margin-left: 44vw;
-    /* flex-basis: unset; */
+    flex-basis: unset;
   }
 }
 
@@ -1182,14 +1178,14 @@ body .navbar {
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
-  /* flex-basis: 5%; */
+  flex-basis: 10%;
 }
 
-/* @media (min-width: 768px ) {
+@media (min-width: 768px ) {
   .navbar .container .navbar-toggler{
-    flex-basis: unset;
+    flex-basis: 10%;
   }
-} */
+}
 
 .navbar .container .navbar-toggler:active{
   outline: none;
