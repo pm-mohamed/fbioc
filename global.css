@@ -1028,9 +1028,20 @@ select.input-lineonly {
   border: 2px solid #BBBBBB !important;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* .navbar__container{
+  flex-wrap: nowrap;
+} */
+
 .navbar__container .navigation__brand{
   margin-right: 0;
+  /* flex-basis: 70%; */
 }
+
+/* @media (min-width: 768px) {
+  .navbar__container .navigation__brand{
+    flex-basis: unset;
+  }
+} */
 
 @media (min-width: 1024px) {
   .navbar__container .navigation__brand{
@@ -1054,11 +1065,14 @@ select.input-lineonly {
 
 .navbar__container .navicon__mobile{
   flex-direction: row;
+  /* flex-basis: 5%;
+  margin-right: 20px; */
 }
 
 @media (min-width: 768px) {
   .navbar__container .navicon__mobile {
     margin-left: 44vw;
+    /* flex-basis: unset; */
   }
 }
 
@@ -1077,6 +1091,21 @@ select.input-lineonly {
   display: none;
 }
 
+.navicon__desktop .nav-item.faq__container {
+  display: none;
+}
+
+.navicon__mobile .profile__container {
+  display: none;
+}
+
+.navicon__desktop .profile__container {
+  display: none;
+}
+
+.navicon__mobile .b-nav-dropdown .dropdown-menu {
+  position: absolute;
+}
 
 @media (min-width: 1024px) {
   #fixedtitle {
@@ -1153,7 +1182,14 @@ body .navbar {
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
+  /* flex-basis: 5%; */
 }
+
+/* @media (min-width: 768px ) {
+  .navbar .container .navbar-toggler{
+    flex-basis: unset;
+  }
+} */
 
 .navbar .container .navbar-toggler:active{
   outline: none;
