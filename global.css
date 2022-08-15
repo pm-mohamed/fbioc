@@ -1,4 +1,8 @@
-
+/* Small devices, 376px
+Medium devices, 768px
+Large devices, 1024px (Tablet land)
+Larger devices, 1240px (Small desktop)
+Even Larger devices, 1528px (Large desktop) */
 
 body {
   background-color: #FFFFFF;
@@ -1457,7 +1461,19 @@ body .navbar {
 
 #firstgridcontainer {
   margin-left: 0;
-  margin-top: 200px;
+  margin-top: 250px;
+}
+
+@media (min-width: 768px ) {
+  #firstgridcontainer {
+    margin-top: 175px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer {
+    margin-top: 192px;
+  }
 }
 
 #firstgridcontainer > div {
@@ -2826,4 +2842,11 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 #successbooked___BV_modal_backdrop_{
   width: 150vw;
   height: 150vh;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.loading__wrapper{
+  z-index:  10000000000000 !important;
+  position: absolute !important;
+  top: 10vh !important;
+  left: 40% !important;
 }
