@@ -1385,6 +1385,13 @@ body .navbar {
 
 @media (min-width: 768px ) {
   .dashboard__title__row .dashboard__title__column{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard__title__row .dashboard__title__column{
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -1497,7 +1504,7 @@ body .navbar {
 }
 
 #firstgridcontainer > div > div:nth-child(3){
-  justify-content: flex-start;
+  display: inline-flex;
   margin-left: 0;
 }
 
@@ -1508,7 +1515,7 @@ body .navbar {
 }
 
 #secondgridcontainer > div > div:nth-child(3){
-  justify-content: flex-start;
+  display: inline-flex;
   margin-left: 0;
 }
 
@@ -1587,11 +1594,11 @@ body .navbar {
 }
 
 #firstgridcontainer > div > div:nth-child(3) > div:nth-child(2) {
-  flex-basis: 90%;
+  padding-left: 5px;
 }
 
 #secondgridcontainer > div > div:nth-child(3) > div:nth-child(2) {
-  flex-basis: 90%;
+  padding-left: 5px;
 }
 
 .apptable .topleft{
@@ -1683,6 +1690,18 @@ td .apptbutton.disabled, .apptbutton:disabled {
   }
 }
 
+@media (min-width: 768px) {
+  #firstgridcontainer .thirdcolumn .showdetail-button .showdetail-details  {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer .thirdcolumn .showdetail-button .showdetail-details  {
+    display: block;
+  }
+}
+
 #secondgridcontainer .thirdcolumn .showdetail-button {
   margin-top: 2px !important;
   display: none;
@@ -1690,6 +1709,18 @@ td .apptbutton.disabled, .apptbutton:disabled {
 
 @media (min-width: 768px) {
   #secondgridcontainer .thirdcolumn .showdetail-button {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #secondgridcontainer .thirdcolumn .showdetail-button .showdetail-details  {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #secondgridcontainer .thirdcolumn .showdetail-button .showdetail-details  {
     display: block;
   }
 }
