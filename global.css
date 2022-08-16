@@ -1669,9 +1669,18 @@ td .apptbutton.disabled, .apptbutton:disabled {
 }
 
 #firstgridcontainer table .secondcolumn .counseling{
-  margin-top: 18px;
+  margin-top: 7px;
   font-size: 14px !important;
+  max-width: 150px;
 }
+
+@media (min-width: 768px ) {
+  #firstgridcontainer table .secondcolumn .counseling{
+    margin-top: 24px;
+    max-width: unset;
+  }
+}
+
 
 @media (min-width: 1024px ) {
   #firstgridcontainer table .secondcolumn .counseling{
@@ -1679,8 +1688,52 @@ td .apptbutton.disabled, .apptbutton:disabled {
   }
 }
 
+#secondgridcontainer table .secondcolumn__narrow .counseling{
+  margin-top: 7px;
+  max-width: 150px;
+}
+
+@media (min-width: 768px ) {
+  #secondgridcontainer table .secondcolumn__narrow .counseling{
+    margin-top: 24px;
+    max-width: unset;
+  }
+}
+
 #firstgridcontainer .firstcolumn {
+  line-height: 1.5;
   padding-top: 8px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  #firstgridcontainer .firstcolumn {
+    line-height: 52px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #firstgridcontainer .firstcolumn {
+    font-size: 18px;
+  }
+}
+
+#secondgridcontainer .firstcolumn {
+  line-height: 1.5;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  #secondgridcontainer .firstcolumn {
+    line-height: 52px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  #secondgridcontainer .firstcolumn {
+    font-size: 18px;
+  }
 }
 
 #firstgridcontainer .thirdcolumn .showdetail-button {
@@ -1780,7 +1833,6 @@ table .firstcolumn {
 }
 
 .apptable-container table .secondcolumn__narrow .counseling{
-  margin-top: 24px;
   font-size: 14px;
 }
 
