@@ -1619,6 +1619,10 @@ body .navbar {
   height: 22px;
 }
 
+.apptable-rowdetails{
+  max-height: unset !important;
+}
+
 .apptable-rowdetails p{
   max-width: 90px;
   font-size: 14px;
