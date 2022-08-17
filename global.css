@@ -2496,6 +2496,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     margin-left: unset;
     flex-wrap: nowrap;
     top: 240px;
+    margin-left: -42px;
   }
 }
 
@@ -2506,6 +2507,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     margin-bottom: 0 !important;
     margin-right: 0;
     top: 220px;
+    margin-left: 0;
   }
 }
 
@@ -2533,6 +2535,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     height: unset;
     padding-top: 100px;
     padding-bottom: 30px;
+    margin-left: -42px;
   }
 }
 
@@ -2541,6 +2544,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   .timeslot__wrapper .smallertitle {
     padding-top: 70px;
     top: 100px;
+    margin-left: 0;
   }
 }
 
@@ -2601,9 +2605,16 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 @media (min-width: 768px) {
   #weeklyslider{
     flex-wrap: wrap;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #weeklyslider{
     margin-left: 0;
   }
 }
+
 
 #dayscontainer{
   padding-left: 0;
@@ -2637,14 +2648,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width:  768px) {
   #dayscontainer #dayslist li {
-    margin-right: 0;
+    margin-right: 5px;
     width: 50px;
   }
 }
 
 @media (min-width: 1024px) {
   #dayscontainer #dayslist li {
-    margin-right: 5px;
     width: 56px;
   }
 }
@@ -2731,6 +2741,12 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 768px) {
   .hour--listcontainer .hour--list.first{
+    margin-left: 50px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer .hour--list.first{
     margin-left: 45px !important;
   }
 }
@@ -2763,6 +2779,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   #slotrow > div {
     flex-basis: unset;
     margin-top: 100px;
+    margin-left: -42px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #slotrow > div {
+    margin-left: -15px;
   }
 }
 
