@@ -1066,7 +1066,7 @@ select.input-lineonly {
 
 .navbar__container .navicon__mobile{
   flex-direction: row;
-  flex-basis: 10%;
+  flex-basis: 5%;
 }
 
 @media (min-width: 768px) {
@@ -2747,7 +2747,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   }
 }
 
-#slotrow > div {
+/* #slotrow > div {
   flex-basis: 100vh;
 }
 
@@ -2755,7 +2755,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   #slotrow > div {
     flex-basis: 160vh;
     }
-}
+} */
 
 @media (min-width: 768px) {
   #slotrow > div {
