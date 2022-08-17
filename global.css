@@ -1034,7 +1034,7 @@ select.input-lineonly {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .navbar__container .navigation__brand{
   margin-right: 0;
-  flex-basis: 60%;
+  flex-basis: 75%;
 }
 
 @media (min-width: 768px) {
@@ -1060,18 +1060,18 @@ select.input-lineonly {
 @media (min-width: 1024px) {
   .navicon__desktop{
     display: flex !important;
+    padding-right: 8px;
   }
 }
 
 .navbar__container .navicon__mobile{
   flex-direction: row;
   flex-basis: 10%;
-  /* margin-right: 20px; */
 }
 
 @media (min-width: 768px) {
   .navbar__container .navicon__mobile {
-    margin-left: 44vw;
+    margin-left: 55vw;
     flex-basis: unset;
   }
 }
@@ -1100,6 +1100,14 @@ select.input-lineonly {
 }
 
 .navicon__desktop .profile__container {
+  display: none;
+}
+
+.navicon__desktop .searchicon__container {
+  display: none;
+}
+
+.navicon__mobile .searchicon__container {
   display: none;
 }
 
