@@ -2798,6 +2798,8 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   #slotrow > div > .slot-row__column:nth-child(2) {
     flex: 0 0 67%;
     max-width: 67%;
+    padding-right: 0;
+    padding-left: 30;
   }
 }
 
@@ -2805,6 +2807,8 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   #slotrow > div > .slot-row__column:nth-child(2) {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
