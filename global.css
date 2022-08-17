@@ -2631,7 +2631,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 }
 
 #dayscontainer #dayslist li {
-  margin-right: 0;
+  margin-right: 2px;
   width: 52px;
 }
 
@@ -2672,13 +2672,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .hour--listcontainer{
   display: flex;
-  margin-left: -27px;
+  margin-left: -15px;
+  margin-bottom: 0 !important;
 }
 
 @media (min-width: 768px) {
   .hour--listcontainer{
     display: contents;
     margin-left: unset;
+    margin-bottom: 64px !important;
   }
 }
 
