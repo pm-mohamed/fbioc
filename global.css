@@ -1034,18 +1034,19 @@ select.input-lineonly {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header and Progressbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .navbar__container .navigation__brand{
   margin-right: 0;
-  flex-basis: 75%;
+  flex-basis: 65%;
 }
 
 @media (min-width: 768px) {
   .navbar__container .navigation__brand{
-    flex-basis: unset;
+    flex-basis: 85%;
   }
 }
 
 @media (min-width: 1024px) {
   .navbar__container .navigation__brand{
     margin-right: 16px;
+    flex-basis: unset;
   }
 }
 
@@ -1071,8 +1072,7 @@ select.input-lineonly {
 
 @media (min-width: 768px) {
   .navbar__container .navicon__mobile {
-    margin-left: 55vw;
-    flex-basis: unset;
+    flex-basis: 5%;
   }
 }
 
@@ -1080,6 +1080,7 @@ select.input-lineonly {
   .navbar__container .navicon__mobile {
     display: none !important;
     margin-left: 0;
+    flex-basis: unset;
   }
 }
 
@@ -1190,12 +1191,21 @@ body .navbar {
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
-  flex-basis: 10%;
+  padding-left: 20px;
+  flex-basis: 15%;
 }
 
 @media (min-width: 768px ) {
   .navbar .container .navbar-toggler{
-    flex-basis: 10%;
+    flex-basis: 5%;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  .navbar .container .navbar-toggler{
+    flex-basis: unset;
+    padding-left: 12px;
   }
 }
 
@@ -1350,6 +1360,18 @@ body .navbar {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Language Select Dropdown <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* #myNavItem .dropdown-menu{
+  width: 100vw;
+  right: 0;
+  left: -70vw;
+  position: absolute;
+}
+
+.dropdown-menu.show{
+  display: flex !important;
+} */
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .dashboard__title__row{
