@@ -1276,6 +1276,11 @@ body .navbar {
   border: none;
 }
 
+.navbar-light .navbar-nav .nav-link:focus-visible {
+  border: none;
+  outline: 0;
+}
+
 .nav-item .nav-link .searchicon__button:active, .nav-item .nav-link .faq__button:active, .nav-item .nav-link .profile__button:active {
   background-color: white !important;
   border-color: white !important;
@@ -1362,16 +1367,38 @@ body .navbar {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Language Select Dropdown <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* #myNavItem .dropdown-menu{
-  width: 100vw;
-  right: 0;
-  left: -70vw;
+/* Parent of this ul has to unset position in order to make ul right and left 0 works */
+.b-nav-dropdown {
+  position: unset !important;
+}
+
+#myNavItem .dropdown-menu{
+  right: 0 !important;
+  left: 0 !important;
   position: absolute;
 }
 
 .dropdown-menu.show{
   display: flex !important;
-} */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-flag{
+  margin-right: -10px !important;
+}
+
+#myNavItem .dropdown-menu .dropdown-item{
+  font-family: "Nunito Sans", sans-serif !important;
+  color: #272727 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+#myNavItem .dropdown-menu .dropdown-item:hover{
+  background-color: white;
+}
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dashboard <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .dashboard__title__row{
