@@ -983,6 +983,26 @@ select.input-lineonly {
 }
 /*# sourceMappingURL=client.css.map */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>New CSS Rules<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Select  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+select option {
+  background: #fff !important;
+  color: #000000!important;
+}
+
+.dropdown__arrow{
+  background-position: calc(100% - 17px) calc(1em - 4px),calc(100% - 15px) calc(1em + 2px),100% 0 !important;
+}
+
+#firstavailable--dropdown {
+  color: #BBBBBB !important;
+  font-size: 18px !important;
+}
+
+#selectInput{
+  color: #BBBBBB !important;
+  font-size: 18px !important;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Buttons  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Primary Button -- Yellow */
 #logout__rootcontainer .logout__container .nav-link .btn {
@@ -2795,6 +2815,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .hour--listcontainer .hour--list .hour{
   width: 54px;
+  height: 31px;
   font-size: 14px;
   padding: 0;
   display: flex;
@@ -2807,6 +2828,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     width: 55px;
     font-size: 16px;
     padding: 12px;
+    height: 36px;
   }
 }
 
@@ -2814,6 +2836,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   .hour--listcontainer .hour--list .hour{
     width: 66px;
   }
+}
+
+.hour--listcontainer .hour--list .hour:hover{
+  background: linear-gradient(118deg, rgba(222, 240, 237, 1) 0%, rgba(190, 220, 215, 1) 50%);
+  color: black !important;
+}
+
+.hour--listcontainer .hour--list .hour:focus{
+  color: white !important;
 }
 
 .hour--listcontainer .hour--list.first{
