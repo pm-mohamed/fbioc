@@ -2094,6 +2094,28 @@ table .firstcolumn {
   padding-left: 0;
 }
 
+.topicbutton{
+  font-size: 14px !important;
+  width: 318px !important;
+  min-height: 57px !important;
+}
+
+@media (min-width: 768px){
+  .topicbutton{
+    font-size: 16px !important;
+    width: 173px !important;
+    min-height: 100px !important;
+  }
+}
+
+@media (min-width: 1024px){
+  .topicbutton{
+    font-size: 16px !important;
+    width: 265px !important;
+    min-height: 109px !important;
+  }
+}
+
 /* General Layout - Container of the progress menu and questions and answers */
 .container-fluid > div > div {
   align-self: stretch;
@@ -2135,12 +2157,12 @@ table .firstcolumn {
 }
 
 .category-column{
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 768px) {
   .category-column{
-    margin-bottom: unset;
+    margin-bottom: 20px;
   }
 }
 
@@ -2272,14 +2294,21 @@ table .firstcolumn {
 
 .category-row div {
   flex-grow: unset;
-  flex-basis: 265px;
+  flex-basis: 200px;
   padding-right: 11px;
   padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .category-row div{
+    flex-basis: 173px;
+  }
 }
 
 @media (min-width: 1240px) {
   .category-row div{
     margin-bottom: 20px;
+    flex-basis: 265px;
   }
 }
 
