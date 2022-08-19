@@ -2836,6 +2836,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   max-width: 100%;
   position: unset;
   margin-top: 0;
+  padding-left: 30px;
 }
 
 @media (min-width: 768px) {
@@ -2843,7 +2844,6 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     flex: 0 0 67%;
     max-width: 67%;
     padding-right: 0;
-    padding-left: 30;
   }
 }
 
