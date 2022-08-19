@@ -3049,6 +3049,31 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   width: 150vw;
   height: 150vh;
 }
+
+#cancel--button {
+  font-size: 16px !important;
+}
+
+@media (min-width: 1024px) {
+  #cancel--button {
+    font-size: 20px !important;
+  }
+}
+
+.preview-action__column .primary-button__Large .primary-button--text {
+  font-size: 16px !important;
+}
+
+@media (min-width: 1024px) {
+  .preview-action__column .primary-button__Large .primary-button--text {
+    font-size: 20px !important;
+  }
+}
+
+.bi-check-circle.b-icon.bi.text-success{
+    fill: #BEDCD7;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .loading__wrapper{
   z-index:  10000000000000 !important;
