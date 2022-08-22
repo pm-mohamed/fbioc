@@ -2094,6 +2094,18 @@ table .firstcolumn {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level and Second Level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.container-fluid {
+  /* Iphone 5 fix for level 3 */
+  padding-right: 0!important;
+}
+
+@media (min-width: 375px) {
+  .container-fluid {
+  /* Iphone 5 fix for level 3 */
+    padding-right: 15px!important;
+  }
+}
+
 /* Overall Wrapper */
 #app .page__wrapper{
   max-width: 1140px;
@@ -2139,6 +2151,16 @@ table .firstcolumn {
 /* General Layout - Container of the progress menu and questions and answers */
 .container-fluid > div > div {
   align-self: stretch;
+  /* Iphone 5 fix for level 3 */
+  padding-right: 0 !important;
+}
+
+@media (min-width: 375px) {
+  .container-fluid > div > div {
+    align-self: stretch;
+  /* Iphone 5 fix for level 3 */
+    padding-right: 15px !important;
+  }
 }
 
 /* Progress menu */
@@ -2187,11 +2209,19 @@ table .firstcolumn {
 }
 
 .footer__container{
-  padding-left: 50px;
+  /* Iphone 5 fix for level 3 */
+  padding-left: 20px;
   padding-right: 300px;
 }
 
+@media (min-width: 375px) {
+  .footer__container{
+    padding-left: 50px;
+  }
+}
+
 @media (min-width: 1024px) {
+  /* Iphone 5 fix for level 3 */
   .footer__container{
     padding-left: unset;
     padding-right: unset;
@@ -2723,6 +2753,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   padding-right: 0;
   flex: 0 0 100%;
   max-width: 100%;
+  /* Iphone 5 fix for level 3 */
+  margin-left: 0 !important;
+}
+
+@media (min-width: 375px) {
+  #dayscontainer{
+    /* Iphone 5 fix for level 3 */
+    margin-left: 5px !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2779,7 +2818,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 }
 
 #dayscontainer .navigationlink {
-  margin-left: 20px;
+  /* Iphone 5 fix for level 3 */
+  margin-left: 0;
+}
+
+@media (min-width: 375px) {
+  #dayscontainer .navigationlink {
+    /* Iphone 5 fix for level 3 */
+    margin-left: 20px;
+  }  
 }
 
 .hour--listcontainer{
