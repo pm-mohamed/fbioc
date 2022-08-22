@@ -996,11 +996,21 @@ select option {
 #firstavailable--dropdown {
   color: #BBBBBB !important;
   font-size: 18px !important;
+  border: 1px solid #BBBBBB !important;
+}
+
+#firstavailable--dropdown:hover {
+  border: 1px solid #BBBBBB !important;
 }
 
 #selectInput{
   color: #BBBBBB !important;
   font-size: 18px !important;
+  border: 1px solid #BBBBBB !important;
+}
+
+#selectInput:hover{
+  border: 1px solid #BBBBBB !important;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Buttons  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -1393,6 +1403,7 @@ body .navbar {
 }
 
 #myNavItem .dropdown-menu{
+  top: 105% !important;
   right: 0 !important;
   left: 0 !important;
   position: absolute;
@@ -2089,9 +2100,14 @@ table .firstcolumn {
   max-width: unset;
 }
 
-/* #cancelModalPreview{
-  top: 70px;
+@media (min-width:  1024px) {
+  #choosedifflocpopup___BV_modal_backdrop_ {
+    width: 110vw;
+    height: 110vh;
+  }
 }
+
+#choosedifflocpopup___BV_modal_backdrop_
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Book a consultation first level and Second Level <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .container-fluid {
@@ -2886,11 +2902,19 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 }
 
 .hour--listcontainer .hour--list .hour:hover{
-  background: linear-gradient(118deg, rgba(222, 240, 237, 1) 0%, rgba(190, 220, 215, 1) 50%);
-  color: black !important;
+  background: #1C6F62!important;
+  color: white !important;
+}
+
+@media (min-width: 1024px) {
+  .hour--listcontainer .hour--list .hour:hover{
+    background: linear-gradient(118deg, rgba(222, 240, 237, 1) 0%, rgba(190, 220, 215, 1) 50%)!important;
+    color: black !important;
+  }
 }
 
 .hour--listcontainer .hour--list .hour:focus{
+  background: #1C6F62!important;
   color: white !important;
 }
 
