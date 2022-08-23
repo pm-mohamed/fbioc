@@ -2366,7 +2366,7 @@ table .firstcolumn {
   padding-left: 0;
   position: absolute;
   margin-top: 58px;
-  margin-left: 200px;
+  margin-left: 230px;
 }
 /* Iphone 6 Landscape */
 @media (min-width: 667px) {
@@ -2572,6 +2572,12 @@ footer div {
 
 footer .footer__backbuttoncontainer{
   padding-left: 0;
+}
+/* //Iphone 6 Portrait */
+@media (min-width: 375px) {
+  footer .footer__backbuttoncontainer{
+    padding-left: 15px;
+  }
 }
 
 @media (min-width: 768px) {
