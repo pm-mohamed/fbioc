@@ -2232,7 +2232,15 @@ table .firstcolumn {
 
 @media (min-width: 375px) {
   .footer__container{
+    padding-left: 10px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__container{
     padding-left: 50px;
+    margin-left: -15px;
   }
 }
 
@@ -2244,20 +2252,35 @@ table .firstcolumn {
   }
 }
 
-
 .footer__container .footer__nextbuttoncontainer{
-  flex: 0 0 75%;
-  max-width: 75%;
+  flex: 0 0 60%;
+  max-width: 60%;
   text-align: unset !important;
 }
-/* Mobile Landscape */
-@media (min-width: 667px) {
+
+@media (min-width: 375px) {
   .footer__container .footer__nextbuttoncontainer{
-    flex: 0 0 15%;
-    max-width: 15%;
+    flex: 0 0 56%;
+    max-width: 56%;
+  }
+}
+
+/* IPhone 5 Mobile Landscape */
+@media (min-width: 568px) {
+  .footer__container .footer__nextbuttoncontainer{
+    flex: 0 0 38%;
+    max-width: 38%;
     text-align: right;
   }
 }
+
+@media (min-width: 768px) {
+  .footer__container .footer__nextbuttoncontainer{
+    flex: 0 0 1%;
+    max-width: 1%;
+  }
+}
+
 @media (min-width: 1024px) {
   .footer__container .footer__nextbuttoncontainer{
     flex: 0 0 55%;
@@ -2327,6 +2350,12 @@ table .firstcolumn {
   font-size: 26px;
 }
 
+/* @media (min-width: 768px) {
+  .bigtitlecontainer div:first-child {
+    max-width: 100%;
+  }
+} */
+
 @media (min-width: 1240px) {
   .bigtitlecontainer div:first-child {
     font-size: 32px;
@@ -2335,6 +2364,17 @@ table .firstcolumn {
 /* Question icon container */
 .bigtitlecontainer div:nth-child(2) {
   padding-left: 0;
+  position: absolute;
+  margin-top: 58px;
+  margin-left: 200px;
+}
+/* Iphone 6 Landscape */
+@media (min-width: 667px) {
+  .bigtitlecontainer div:nth-child(2)  {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
 
 .bigtitlecontainer div:nth-child(2) img {
@@ -2530,6 +2570,10 @@ footer div {
   margin-top: 55px;
 }
 
+footer .footer__backbuttoncontainer{
+  padding-left: 0;
+}
+
 @media (min-width: 768px) {
   footer .footer__backbuttoncontainer{
     padding-left: 50px;
@@ -2584,12 +2628,24 @@ footer a:active span{
 }
 /* continue button */
 footer .btn-secondary{
-  min-width: 104px !important;
   background-color: #FFFFFF !important;
-  min-height: 56px !important;
   border: 2px solid #1C6F62 !important;
   border-radius: 10px !important;
-  padding: 15px 40px;
+  padding: 9px 16px;
+  width: 98px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media (min-width: 1024px) {
+  footer .btn-secondary{
+    padding: 15px 40px;
+    width: 163px !important;
+    height: 56px !important;
+  }
 }
 
 footer .btn-secondary:hover, .btn-secondary:active {
