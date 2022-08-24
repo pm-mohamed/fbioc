@@ -2951,7 +2951,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 @media (min-width: 1024px) {
   .hour--listcontainer .hour--list .hour{
     width: 55px;
-    font-size: 16px;
+    font-size: 18px;
     padding: 12px;
     height: 36px;
   }
