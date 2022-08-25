@@ -2737,7 +2737,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 .timeslot__wrapper .smallertitle {
   font-size: 26px;
   position: fixed;
-  /* left: 23px; */
+  left: 6vw;
   z-index: 100;
   top: 80px;
   width: 100vw;
@@ -2749,7 +2749,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 768px) {
   .timeslot__wrapper .smallertitle {
-    /* left: unset; */
+    left: unset;
     font-size: 32px;
     height: unset;
     padding-top: 100px;
