@@ -2305,12 +2305,18 @@ table .firstcolumn {
   z-index: 100;
   top: 0;
   padding-top: 100px;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  left: 0!important;
 }
 
 @media (min-width: 768px) {
   .bigtitlecontainer{
     padding-top: 150px;
     width: 100%;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    left: unset !important;
   }
 }
 
@@ -2345,16 +2351,17 @@ table .firstcolumn {
 }
 /* Title Container */
 .bigtitlecontainer div:first-child {
+  margin-left: 4vw;
   padding-left: 0;
   max-width: 100%;
   font-size: 26px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .bigtitlecontainer div:first-child {
-    max-width: 100%;
+    margin-left: unset;
   }
-} */
+}
 
 @media (min-width: 1240px) {
   .bigtitlecontainer div:first-child {
@@ -2730,6 +2737,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 .timeslot__wrapper .smallertitle {
   font-size: 26px;
   position: fixed;
+  /* left: 23px; */
   z-index: 100;
   top: 80px;
   width: 100vw;
@@ -2741,6 +2749,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 @media (min-width: 768px) {
   .timeslot__wrapper .smallertitle {
+    /* left: unset; */
     font-size: 32px;
     height: unset;
     padding-top: 100px;
