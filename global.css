@@ -2150,7 +2150,6 @@ table .firstcolumn {
 
 @media (min-width: 768px){
   .topicbutton{
-    font-size: 16px !important;
     width: 173px !important;
     min-height: 100px !important;
   }
@@ -2545,6 +2544,12 @@ table .firstcolumn {
 @media (min-width: 768px) {
   .chooselocation__wrapper .category-row {
     margin-top: 50px !important;
+  }
+}
+
+@media (min-width:  1024px ) {
+  .chooselocation__wrapper .category-row {
+    margin-top: 111px !important;
   }
 }
 
@@ -3076,6 +3081,16 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 @media (min-width: 1024px) {
   #slotrow > div {
     margin-left: -15px;
+  }
+}
+
+.slot-row__column .hour-slot__wrapper .line {
+  width: 15px;
+}
+
+@media (min-width: 1024px) {
+  .slot-row__column .hour-slot__wrapper .line {
+    width: 19px;
   }
 }
 
