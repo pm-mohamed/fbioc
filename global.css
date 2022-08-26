@@ -2390,12 +2390,20 @@ table .firstcolumn {
 /* Choices buttons containers */
 #app .category-row {
   margin-bottom: 0;
-  margin-top: 100px;
+  margin-top: 19px;
 }
+
+@media (min-width: 768px) {
+  #app .category-row {
+    margin-top: 60px;
+  }
+}
+
 
 @media (min-width: 1024px) {
   #app .category-row{
     margin-bottom: 0;
+    margin-top: 111px;
   }
 }
 
@@ -2472,7 +2480,13 @@ table .firstcolumn {
 .subtitle__column{
   padding-left: 0 !important;
   padding-right: 0 !important;
-  margin-top: 40px;
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .subtitle__column{
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2525,6 +2539,13 @@ table .firstcolumn {
 .mysidebar--body{
   margin-bottom: 200px;
 }
+
+@media (min-width: 768px) {
+  .chooselocation__wrapper .category-row {
+    margin-top: 50px !important;
+  }
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Select Location Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* I'm Interested in diffrent location checkbox wrapper */
 #app .custom-control{
