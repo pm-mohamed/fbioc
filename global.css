@@ -1541,22 +1541,18 @@ body .navbar {
 .mycontainer .container{
   margin-top: 110px;
   padding-left: 36px;
+  padding-right: 36px;
 }
 
 @media (min-width: 1024px ) {
   .mycontainer .container{
     padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 .apptable{
-  padding-right: 36px;
-}
-
-@media (min-width: 1024px ) {
-  .apptable{
-    padding-right: unset;
-  }
+  padding-right: 0px;
 }
 
 #firstgridcontainer {
