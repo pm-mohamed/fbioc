@@ -3293,6 +3293,39 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     fill: #BEDCD7;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Registration Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.registration__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+  .registration__container {
+    flex-wrap: nowrap;
+  }
+}
+
+.registration__container > div:nth-child(1) {
+  flex-basis: 100%;
+}
+
+@media (min-width: 1024px) {
+  .registration__container > div:nth-child(1) {
+    flex-basis: 50%;
+  }
+}
+
+.registration__container > div:nth-child(2) {
+  flex-basis: 100%;
+}
+
+@media (min-width: 1024px) {
+  .registration__container > div:nth-child(2) {
+    flex-basis: 50%;
+  }
+}
+
 .leftbox__bigtitle {
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
