@@ -1472,8 +1472,8 @@ body .navbar {
 }
 
 .dashboard__title__row .dashboard__title__column{
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 65%;
+  max-width: 65%;
 }
 
 @media (min-width: 768px ) {
