@@ -3359,6 +3359,15 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-style: normal;
 }
 
+#txtFirstName:focus, #txtLastName:focus, #txtPhoneNumber:focus {
+  border-color:  #11554A !important;
+  box-shadow: none;
+}
+
+#txtFirstName.is-invalid, #txtLastName.is-invalid, #txtPhoneNumber.is-invalid {
+  border-color:  #FF4646 !important;
+}
+
 /* Registration Page Input Placeholders */
 .registration__container input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color: #BBBBBB !important;
@@ -3406,6 +3415,19 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-size: 18px;
 }
 
+/* Checkbox rules */
+.custom-control-input:checked~.custom-control-label:before {
+  border-color: #1C6F62 !important;
+  background-color: #1C6F62 !important;
+}
+
+.registration__container .custom-control-label {
+  color: #272727  !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-weight: normal !important;
+  font-style: normal;
+  font-size: 18px;
+}
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .loading__wrapper{
