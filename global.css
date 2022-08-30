@@ -3292,6 +3292,39 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 .bi-check-circle.b-icon.bi.text-success{
     fill: #BEDCD7;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Registration Page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.leftbox__bigtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  color: #272727;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .leftbox__bigtitle {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leftbox__bigtitle {
+    font-size: 32px;
+  }
+}
+
+.leftbox__paragraph1{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #272727;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .leftbox__paragraph1{
+    font-size: 18px;
+  }
+}
+
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .loading__wrapper{
