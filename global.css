@@ -1529,9 +1529,15 @@ body .navbar {
 
 /* Create new appointment button */
 #createappointmentbutton{
-  padding: 16px 45px;
+  padding: 16px 40px !important;
   border-radius: 10px;
   width: unset;
+}
+
+@media (min-width: 375px ) {
+  #createappointmentbutton{
+    padding: 16px 45px !important;
+  }
 }
 
 #app.mycontainer{
@@ -1553,6 +1559,19 @@ body .navbar {
 
 .apptable{
   padding-right: 0px;
+  table-layout: unset;
+}
+
+@media (min-width: 375px ) {
+  .apptable{
+    table-layout: fixed;
+  }
+}
+
+@media (min-width: 768px ) {
+  .apptable{
+    table-layout: unset;
+  }
 }
 
 #firstgridcontainer {
@@ -1627,6 +1646,7 @@ body .navbar {
 #firstgridcontainer .secondcolumn .apptbutton{
   margin-left: 30px !important;
   display: block;
+  min-width: 81px !important;
 }
 
 @media (min-width: 768px ) {
@@ -1648,7 +1668,8 @@ body .navbar {
 
 #firstgridcontainer .fourthcolumn .showdetail-button, #secondgridcontainer .fourthcolumn .showdetail-button{
   display: block;
-  margin-top: 5px;
+  margin-top: -10px;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px ) {
@@ -1692,6 +1713,13 @@ body .navbar {
 
 .apptable .topleft{
   border-top-left-radius: 20px !important;
+  width: 108px;
+}
+
+@media (min-width: 768px ) {
+  .apptable .topleft{
+    width: unset;
+  }
 }
 
 .apptable .topright{
@@ -1758,7 +1786,7 @@ td .apptbutton.disabled, .apptbutton:disabled {
 }
 
 #firstgridcontainer table .secondcolumn .counseling{
-  margin-top: 7px;
+  margin-top: 0px;
   font-size: 14px !important;
   max-width: 150px;
 }
@@ -1778,7 +1806,7 @@ td .apptbutton.disabled, .apptbutton:disabled {
 }
 
 #secondgridcontainer table .secondcolumn__narrow .counseling{
-  margin-top: 7px;
+  margin-top: 0px;
   max-width: 150px;
 }
 
@@ -1791,7 +1819,8 @@ td .apptbutton.disabled, .apptbutton:disabled {
 
 #firstgridcontainer .firstcolumn {
   line-height: 1.5;
-  padding-top: 8px;
+  padding-top: 0px;
+  padding-left: 22px;
   font-size: 14px;
   text-align: left;
 }
@@ -1800,6 +1829,8 @@ td .apptbutton.disabled, .apptbutton:disabled {
   #firstgridcontainer .firstcolumn {
     line-height: 52px;
     text-align: center;
+    padding-top: 8px;
+    padding-left: 1px;
   }
 }
 
@@ -1812,7 +1843,8 @@ td .apptbutton.disabled, .apptbutton:disabled {
 #secondgridcontainer .firstcolumn {
   text-align: left;
   line-height: 1.5;
-  padding-top: 8px;
+  padding-top: 0px;
+  padding-left: 22px;
   font-size: 14px;
 }
 
@@ -1820,6 +1852,8 @@ td .apptbutton.disabled, .apptbutton:disabled {
   #secondgridcontainer .firstcolumn {
     line-height: 52px;
     text-align: center;
+    padding-top: 8px;
+    padding-left: 1px;
   }
 }
 
@@ -1860,6 +1894,13 @@ td .apptbutton.disabled, .apptbutton:disabled {
 @media (min-width: 768px) {
   #secondgridcontainer .thirdcolumn .showdetail-button {
     display: block;
+    padding-top: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #secondgridcontainer .thirdcolumn .showdetail-button {
+    padding-top: 6px;
   }
 }
 
@@ -1883,6 +1924,7 @@ td .apptbutton.disabled, .apptbutton:disabled {
 @media (min-width: 768px) {
   #firstgridcontainer .fourthcolumn .apptbutton {
     display: block;
+    min-width: 81px !important;
   }
 }
 
