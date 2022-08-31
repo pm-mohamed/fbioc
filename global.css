@@ -2416,7 +2416,7 @@ table .firstcolumn {
   padding-left: 0;
   position: absolute;
   margin-top: 58px;
-  margin-left: 230px;
+  margin-left: 300px;
 }
 /* Iphone 6 Landscape */
 @media (min-width: 667px) {
@@ -2477,12 +2477,24 @@ table .firstcolumn {
 }
 
 /* Right Info Sidebar */
+#sidebar-right {
+  margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+  #sidebar-right {
+    margin-top: 112px;
+  }
+}
+
 #sidebar-right .b-sidebar-header{
+  margin-top: 0;
   align-items: center;
   justify-content: flex-end;
 }
 
 #sidebar-right .b-sidebar-header .close{
+  height: 50px;
   margin: 0;
   flex-basis: 13%;
 }
@@ -2580,7 +2592,7 @@ table .firstcolumn {
   background: white !important;
 }
 .mysidebar--body{
-  margin-bottom: 200px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
