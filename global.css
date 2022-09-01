@@ -3389,6 +3389,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-size: 20px;
   color: #272727;
   font-weight: bold;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {
@@ -3408,12 +3409,21 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-size: 16px;
   color: #272727;
   font-weight: normal;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {
   .leftbox__paragraph1{
     font-size: 18px;
   }
+}
+
+.text__phone{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #11554A;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .registration__container fieldset legend {
@@ -3532,6 +3542,37 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .registration__container .btn {
   padding: 15px 40px;
+}
+
+.leftbox__container{
+  background: #DEF0ED;
+  border-radius: 20px;
+  padding: 120px 16px 36px;
+  margin-top: 8px;
+}
+
+.registration__container .leftbox__leftsection{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.registration__container .leftbox__rightsection{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.registration__container  .form-group {
+  margin-bottom: 32px;
+}
+
+.registration__container .custom-checkbox {
+  margin-bottom: 32px;
+}
+
+.registration__container .primary-button__Medium .primary-button--text {
+  white-space: nowrap;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
