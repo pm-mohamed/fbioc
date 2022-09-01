@@ -3361,6 +3361,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 @media (min-width: 1024px) {
   .registration__container {
     flex-wrap: nowrap;
+    align-items: start;
   }
 }
 
@@ -3424,6 +3425,10 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   color: #11554A;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.text__phone:hover{
+  color: #11554A;
 }
 
 .registration__container fieldset legend {
@@ -3544,6 +3549,7 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
 
 .registration__container .btn {
   padding: 15px 40px;
+  border-radius: 10px;
 }
 
 .leftbox__container{
@@ -3560,6 +3566,12 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   }
 }
 
+@media (min-width: 1024px) {
+  .leftbox__container{
+    padding: 36px 24px 66px;
+  }
+}
+
 .registration__container .leftbox__leftsection{
   padding-left: 30px;
   padding-right: 30px;
@@ -3569,6 +3581,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   .registration__container .leftbox__leftsection{
     padding-left: 32px;
     padding-right: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .registration__container .leftbox__leftsection{
+    padding-right: 47px;
+    padding-left: 50px;
   }
 }
 
@@ -3585,6 +3604,13 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
     padding-right: 96px;
     margin-top: 70px;
     margin-bottom: 102px;
+  }
+}
+
+@media (min-width: 1024px ) {
+  .registration__container .leftbox__rightsection{
+    padding-left: 0;
+    margin-top: 15px;
   }
 }
 
