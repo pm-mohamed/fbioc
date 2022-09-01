@@ -3520,6 +3520,20 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-size: 18px;
 }
 
+.invalid-feedback__icon{
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+#cmbGender, #cmbRole {
+  font-size: 18px;
+  color: #272727 !important;
+}
+
+.registration__container .btn {
+  padding: 15px 40px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Spinner <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .loading__wrapper{
   z-index:  10000000000000 !important;
