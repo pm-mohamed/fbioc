@@ -3458,6 +3458,8 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   font-weight: normal !important;
   font-size: 18px;
   font-style: normal;
+  height: 48px;
+  border-radius: 8px;
 }
 
 #txtFirstName:focus, #txtLastName:focus, #txtPhoneNumber:focus {
@@ -3551,9 +3553,23 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-top: 8px;
 }
 
+@media (min-width: 768px) {
+  .leftbox__container{
+    margin-top: 18px;
+    padding: 36px 41px 44px 25px;
+  }
+}
+
 .registration__container .leftbox__leftsection{
   padding-left: 30px;
   padding-right: 30px;
+}
+
+@media (min-width: 768px) {
+  .registration__container .leftbox__leftsection{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .registration__container .leftbox__rightsection{
@@ -3563,8 +3579,23 @@ footer .btn-secondary.disabled, .btn-secondary:disabled span {
   margin-bottom: 80px;
 }
 
-.registration__container  .form-group {
+@media (min-width: 768px) {
+  .registration__container .leftbox__rightsection{
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-top: 70px;
+    margin-bottom: 102px;
+  }
+}
+
+.registration__container .form-group {
   margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .registration__container .form-group:nth-child(5) {
+    margin-bottom: 51px;
+  }
 }
 
 .registration__container .custom-checkbox {
